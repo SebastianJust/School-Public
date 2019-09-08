@@ -63,7 +63,7 @@ namespace CostCalculator
             // 
             calculationsMonthlyProfitsLabel.AutoSize = true;
             calculationsMonthlyProfitsLabel.Location = new System.Drawing.Point(29, 201);
-            calculationsMonthlyProfitsLabel.Name = "calculationsMonthlyProfitsLabel";
+            calculationsMonthlyProfitsLabel.Name = "calculationsProfitsLabel";
             calculationsMonthlyProfitsLabel.Size = new System.Drawing.Size(56, 13);
             calculationsMonthlyProfitsLabel.TabIndex = 17;
             calculationsMonthlyProfitsLabel.Text = "Overskud:";
@@ -72,7 +72,7 @@ namespace CostCalculator
             // 
             calculationsMonthlyExpensesLabel.AutoSize = true;
             calculationsMonthlyExpensesLabel.Location = new System.Drawing.Point(29, 178);
-            calculationsMonthlyExpensesLabel.Name = "calculationsMonthlyExpensesLabel";
+            calculationsMonthlyExpensesLabel.Name = "calculationsExpensesLabel";
             calculationsMonthlyExpensesLabel.Size = new System.Drawing.Size(47, 13);
             calculationsMonthlyExpensesLabel.TabIndex = 16;
             calculationsMonthlyExpensesLabel.Text = "Udgifter:";
@@ -81,7 +81,7 @@ namespace CostCalculator
             // 
             calculationsMonthlyIncomeLabel.AutoSize = true;
             calculationsMonthlyIncomeLabel.Location = new System.Drawing.Point(29, 155);
-            calculationsMonthlyIncomeLabel.Name = "calculationsMonthlyIncomeLabel";
+            calculationsMonthlyIncomeLabel.Name = "calculationsIncomeLabel";
             calculationsMonthlyIncomeLabel.Size = new System.Drawing.Size(56, 13);
             calculationsMonthlyIncomeLabel.TabIndex = 15;
             calculationsMonthlyIncomeLabel.Text = "Indtægter:";
@@ -91,7 +91,7 @@ namespace CostCalculator
             calculationsMonthlyHeader.AutoSize = true;
             calculationsMonthlyHeader.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             calculationsMonthlyHeader.Location = new System.Drawing.Point(29, 133);
-            calculationsMonthlyHeader.Name = "calculationsMonthlyHeader";
+            calculationsMonthlyHeader.Name = "calculationsHeader";
             calculationsMonthlyHeader.Size = new System.Drawing.Size(132, 13);
             calculationsMonthlyHeader.TabIndex = 14;
             calculationsMonthlyHeader.Text = "Månedlig Gennemsnit:";
