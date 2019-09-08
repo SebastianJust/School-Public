@@ -1,0 +1,15 @@
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 1\CostCalculator\CostCalculator\bin\Debug\CostCalculator.exe.config
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 1\CostCalculator\CostCalculator\bin\Debug\CostCalculator.exe
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 1\CostCalculator\CostCalculator\bin\Debug\CostCalculator.pdb
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 1\CostCalculator\CostCalculator\bin\Debug\CostHandler.dll
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 1\CostCalculator\CostCalculator\bin\Debug\CostHandler.pdb
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 1\CostCalculator\CostCalculator\obj\Debug\CostCalculator.csprojAssemblyReference.cache
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 1\CostCalculator\CostCalculator\obj\Debug\CostCalculator.Properties.Resources.resources
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 1\CostCalculator\CostCalculator\obj\Debug\CostCalculator.csproj.GenerateResource.cache
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 1\CostCalculator\CostCalculator\obj\Debug\CostCalculator.csproj.CoreCompileInputs.cache
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 1\CostCalculator\CostCalculator\obj\Debug\CostCalculator.csproj.CopyComplete
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 1\CostCalculator\CostCalculator\obj\Debug\CostCalculator.exe
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 1\CostCalculator\CostCalculator\obj\Debug\CostCalculator.pdb
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 1\CostCalculator\CostCalculator\obj\Debug\CostCalculator.CalculatorForm.resources
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 1\CostCalculator\CostCalculator\bin\Debug\Newtonsoft.Json.dll
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 1\CostCalculator\CostCalculator\bin\Debug\Newtonsoft.Json.xml

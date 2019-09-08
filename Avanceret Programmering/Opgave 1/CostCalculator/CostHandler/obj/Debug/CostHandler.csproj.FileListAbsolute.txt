@@ -1,0 +1,9 @@
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 1\CostCalculator\CostHandler\bin\Debug\CostHandler.dll
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 1\CostCalculator\CostHandler\bin\Debug\CostHandler.pdb
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 1\CostCalculator\CostHandler\obj\Debug\CostHandler.csprojAssemblyReference.cache
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 1\CostCalculator\CostHandler\obj\Debug\CostHandler.csproj.CoreCompileInputs.cache
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 1\CostCalculator\CostHandler\obj\Debug\CostHandler.dll
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 1\CostCalculator\CostHandler\obj\Debug\CostHandler.pdb
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 1\CostCalculator\CostHandler\bin\Debug\Newtonsoft.Json.dll
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 1\CostCalculator\CostHandler\bin\Debug\Newtonsoft.Json.xml
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 1\CostCalculator\CostHandler\obj\Debug\CostHandler.csproj.CopyComplete
