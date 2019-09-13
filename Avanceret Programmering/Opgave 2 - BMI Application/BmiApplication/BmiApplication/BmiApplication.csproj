@@ -1,0 +1,193 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <UserSecretsId>aspnet-BmiApplication-EEFD0AD3-4A56-43A0-9531-0F27543F57A3</UserSecretsId>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\css\animate.css" />
+    <Content Remove="wwwroot\css\bootstrap.min.css" />
+    <Content Remove="wwwroot\css\nivo-lightbox-theme\default\close%402x.png" />
+    <Content Remove="wwwroot\css\nivo-lightbox-theme\default\close.png" />
+    <Content Remove="wwwroot\css\nivo-lightbox-theme\default\default.css" />
+    <Content Remove="wwwroot\css\nivo-lightbox-theme\default\loading%402x.gif" />
+    <Content Remove="wwwroot\css\nivo-lightbox-theme\default\loading.gif" />
+    <Content Remove="wwwroot\css\nivo-lightbox-theme\default\next%402x.png" />
+    <Content Remove="wwwroot\css\nivo-lightbox-theme\default\next.png" />
+    <Content Remove="wwwroot\css\nivo-lightbox-theme\default\prev%402x.png" />
+    <Content Remove="wwwroot\css\nivo-lightbox-theme\default\prev.png" />
+    <Content Remove="wwwroot\css\nivo-lightbox.css" />
+    <Content Remove="wwwroot\css\owl.carousel.css" />
+    <Content Remove="wwwroot\css\owl.theme.css" />
+    <Content Remove="wwwroot\css\style.css" />
+    <Content Remove="wwwroot\js\bootstrap.min.js" />
+    <Content Remove="wwwroot\js\custom.js" />
+    <Content Remove="wwwroot\js\jquery-1.10.2.js" />
+    <Content Remove="wwwroot\js\jquery.appear.js" />
+    <Content Remove="wwwroot\js\jquery.easing.min.js" />
+    <Content Remove="wwwroot\js\jquery.min.js" />
+    <Content Remove="wwwroot\js\jquery.scrollTo.js" />
+    <Content Remove="wwwroot\js\nivo-lightbox.min.js" />
+    <Content Remove="wwwroot\js\owl.carousel.min.js" />
+    <Content Remove="wwwroot\js\stellar.js" />
+    <Content Remove="wwwroot\js\wow.min.js" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.3" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <None Include="wwwroot\assets\arrowleft.png" />
+    <None Include="wwwroot\assets\arrowright.png" />
+    <None Include="wwwroot\assets\arrow_large_left.png" />
+    <None Include="wwwroot\assets\arrow_large_right.png" />
+    <None Include="wwwroot\assets\arrow_left.png" />
+    <None Include="wwwroot\assets\arrow_left2.png" />
+    <None Include="wwwroot\assets\arrow_right.png" />
+    <None Include="wwwroot\assets\arrow_right2.png" />
+    <None Include="wwwroot\assets\black50.png" />
+    <None Include="wwwroot\assets\boxed_bgtile.png" />
+    <None Include="wwwroot\assets\bullet.png" />
+    <None Include="wwwroot\assets\bullets.png" />
+    <None Include="wwwroot\assets\bullets2.png" />
+    <None Include="wwwroot\assets\bullet_boxed.png" />
+    <None Include="wwwroot\assets\coloredbg.png" />
+    <None Include="wwwroot\assets\grain.png" />
+    <None Include="wwwroot\assets\gridtile.png" />
+    <None Include="wwwroot\assets\gridtile_3x3.png" />
+    <None Include="wwwroot\assets\gridtile_3x3_white.png" />
+    <None Include="wwwroot\assets\gridtile_white.png" />
+    <None Include="wwwroot\assets\large_left.png" />
+    <None Include="wwwroot\assets\large_right.png" />
+    <None Include="wwwroot\assets\loader.gif" />
+    <None Include="wwwroot\assets\loader2.gif" />
+    <None Include="wwwroot\assets\navigdots.png" />
+    <None Include="wwwroot\assets\navigdots_bgtile.png" />
+    <None Include="wwwroot\assets\shadow1.png" />
+    <None Include="wwwroot\assets\shadow2.png" />
+    <None Include="wwwroot\assets\shadow3.png" />
+    <None Include="wwwroot\assets\small_left.png" />
+    <None Include="wwwroot\assets\small_left_boxed.png" />
+    <None Include="wwwroot\assets\small_right.png" />
+    <None Include="wwwroot\assets\small_right_boxed.png" />
+    <None Include="wwwroot\assets\timer.png" />
+    <None Include="wwwroot\assets\timerdot.png" />
+    <None Include="wwwroot\assets\transparent.jpg" />
+    <None Include="wwwroot\assets\white50.png" />
+    <None Include="wwwroot\bodybg\bg1.css" />
+    <None Include="wwwroot\bodybg\bg10.css" />
+    <None Include="wwwroot\bodybg\bg2.css" />
+    <None Include="wwwroot\bodybg\bg3.css" />
+    <None Include="wwwroot\bodybg\bg4.css" />
+    <None Include="wwwroot\bodybg\bg5.css" />
+    <None Include="wwwroot\bodybg\bg6.css" />
+    <None Include="wwwroot\bodybg\bg7.css" />
+    <None Include="wwwroot\bodybg\bg8.css" />
+    <None Include="wwwroot\bodybg\bg9.css" />
+    <None Include="wwwroot\color\amethyst.css" />
+    <None Include="wwwroot\color\blue.css" />
+    <None Include="wwwroot\color\default.css" />
+    <None Include="wwwroot\color\green.css" />
+    <None Include="wwwroot\color\lime.css" />
+    <None Include="wwwroot\color\orange.css" />
+    <None Include="wwwroot\color\pink.css" />
+    <None Include="wwwroot\color\red.css" />
+    <None Include="wwwroot\color\sand.css" />
+    <None Include="wwwroot\color\yellow.css" />
+    <None Include="wwwroot\css\animate.css" />
+    <None Include="wwwroot\css\bootstrap.min.css" />
+    <None Include="wwwroot\css\nivo-lightbox-theme\default\close.png" />
+    <None Include="wwwroot\css\nivo-lightbox-theme\default\close@2x.png" />
+    <None Include="wwwroot\css\nivo-lightbox-theme\default\default.css" />
+    <None Include="wwwroot\css\nivo-lightbox-theme\default\loading.gif" />
+    <None Include="wwwroot\css\nivo-lightbox-theme\default\loading@2x.gif" />
+    <None Include="wwwroot\css\nivo-lightbox-theme\default\next.png" />
+    <None Include="wwwroot\css\nivo-lightbox-theme\default\next@2x.png" />
+    <None Include="wwwroot\css\nivo-lightbox-theme\default\prev.png" />
+    <None Include="wwwroot\css\nivo-lightbox-theme\default\prev@2x.png" />
+    <None Include="wwwroot\css\nivo-lightbox.css" />
+    <None Include="wwwroot\css\owl.carousel.css" />
+    <None Include="wwwroot\css\owl.theme.css" />
+    <None Include="wwwroot\css\style.css" />
+    <None Include="wwwroot\doctors\member1.html" />
+    <None Include="wwwroot\doctors\member2.html" />
+    <None Include="wwwroot\doctors\member3.html" />
+    <None Include="wwwroot\doctors\member4.html" />
+    <None Include="wwwroot\font-awesome\css\font-awesome.min.css" />
+    <None Include="wwwroot\font-awesome\fonts\fontawesome-webfont.eot" />
+    <None Include="wwwroot\font-awesome\fonts\fontawesome-webfont.svg" />
+    <None Include="wwwroot\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <None Include="wwwroot\font-awesome\fonts\fontawesome-webfont.woff" />
+    <None Include="wwwroot\font-awesome\fonts\FontAwesome.otf" />
+    <None Include="wwwroot\fonts\glyphicons-halflings-regular.eot" />
+    <None Include="wwwroot\fonts\glyphicons-halflings-regular.svg" />
+    <None Include="wwwroot\fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="wwwroot\fonts\glyphicons-halflings-regular.woff" />
+    <None Include="wwwroot\img\bodybg\bg1.png" />
+    <None Include="wwwroot\img\bodybg\bg10.png" />
+    <None Include="wwwroot\img\bodybg\bg2.png" />
+    <None Include="wwwroot\img\bodybg\bg3.jpg" />
+    <None Include="wwwroot\img\bodybg\bg4.png" />
+    <None Include="wwwroot\img\bodybg\bg5.png" />
+    <None Include="wwwroot\img\bodybg\bg6.png" />
+    <None Include="wwwroot\img\bodybg\bg7.png" />
+    <None Include="wwwroot\img\bodybg\bg8.jpg" />
+    <None Include="wwwroot\img\bodybg\bg9.png" />
+    <None Include="wwwroot\img\dummy\bg1.jpg" />
+    <None Include="wwwroot\img\dummy\img-1.jpg" />
+    <None Include="wwwroot\img\dummy\img-1.png" />
+    <None Include="wwwroot\img\dummy\img-3.png" />
+    <None Include="wwwroot\img\dummy\partner-1.jpg" />
+    <None Include="wwwroot\img\dummy\partner-2.jpg" />
+    <None Include="wwwroot\img\dummy\partner-3.jpg" />
+    <None Include="wwwroot\img\dummy\partner-4.jpg" />
+    <None Include="wwwroot\img\logo.png" />
+    <None Include="wwwroot\img\parallax\1.jpg" />
+    <None Include="wwwroot\img\photo\1.jpg" />
+    <None Include="wwwroot\img\photo\2.jpg" />
+    <None Include="wwwroot\img\photo\3.jpg" />
+    <None Include="wwwroot\img\photo\4.jpg" />
+    <None Include="wwwroot\img\photo\5.jpg" />
+    <None Include="wwwroot\img\photo\6.jpg" />
+    <None Include="wwwroot\img\slides\slide1\bg.jpg" />
+    <None Include="wwwroot\img\slides\slide1\img-1.png" />
+    <None Include="wwwroot\img\slides\slide2\bg.jpg" />
+    <None Include="wwwroot\img\slides\slide3\bg.jpg" />
+    <None Include="wwwroot\img\slides\slide3\img1.jpg" />
+    <None Include="wwwroot\img\slides\slide3\img1.png" />
+    <None Include="wwwroot\img\team\1.jpg" />
+    <None Include="wwwroot\img\team\2.jpg" />
+    <None Include="wwwroot\img\team\3.jpg" />
+    <None Include="wwwroot\img\team\4.jpg" />
+    <None Include="wwwroot\img\testimonials\1.jpg" />
+    <None Include="wwwroot\img\testimonials\2.jpg" />
+    <None Include="wwwroot\img\testimonials\3.jpg" />
+    <None Include="wwwroot\img\testimonials\4.jpg" />
+    <None Include="wwwroot\img\testimonials\5.jpg" />
+    <None Include="wwwroot\img\testimonials\6.jpg" />
+    <None Include="wwwroot\js\bootstrap.min.js" />
+    <None Include="wwwroot\js\custom.js" />
+    <None Include="wwwroot\js\jquery-1.10.2.js" />
+    <None Include="wwwroot\js\jquery.appear.js" />
+    <None Include="wwwroot\js\jquery.easing.min.js" />
+    <None Include="wwwroot\js\jquery.min.js" />
+    <None Include="wwwroot\js\jquery.scrollTo.js" />
+    <None Include="wwwroot\js\nivo-lightbox.min.js" />
+    <None Include="wwwroot\js\owl.carousel.min.js" />
+    <None Include="wwwroot\js\stellar.js" />
+    <None Include="wwwroot\js\wow.min.js" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <ProjectReference Include="..\BmiClient\BmiClient.csproj" />
+  </ItemGroup>
+
+</Project>

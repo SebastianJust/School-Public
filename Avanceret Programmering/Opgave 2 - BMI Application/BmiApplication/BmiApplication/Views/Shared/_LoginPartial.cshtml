@@ -1,0 +1,26 @@
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+
+
+<!-- Signed in with google -->
+@if (SignInManager.IsSignedIn(User))
+{
+
+    <li>
+        <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">@User.Identity.Name</a>
+    </li>
+
+    <li>
+        <form style="color: #ffff;" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new {area = ""})">
+            <button type="submit" class="btn btn-skin btn-block btn-lg">Log ud</button>
+        </form>
+    </li>
+   
+}
+else
+{
+    <li class="active"><a href="#intro">Hjem</a></li>
+    <li><a asp-area="Identity" asp-page="/Account/Login">Log ind</a></li>
+}

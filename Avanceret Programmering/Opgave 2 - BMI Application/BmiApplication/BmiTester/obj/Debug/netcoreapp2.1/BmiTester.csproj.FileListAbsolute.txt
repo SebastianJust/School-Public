@@ -1,0 +1,14 @@
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 2 - BMI Application\BmiApplication\BmiTester\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 2 - BMI Application\BmiApplication\BmiTester\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 2 - BMI Application\BmiApplication\BmiTester\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 2 - BMI Application\BmiApplication\BmiTester\bin\Debug\netcoreapp2.1\BmiTester.deps.json
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 2 - BMI Application\BmiApplication\BmiTester\bin\Debug\netcoreapp2.1\BmiTester.runtimeconfig.json
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 2 - BMI Application\BmiApplication\BmiTester\bin\Debug\netcoreapp2.1\BmiTester.runtimeconfig.dev.json
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 2 - BMI Application\BmiApplication\BmiTester\bin\Debug\netcoreapp2.1\BmiTester.dll
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 2 - BMI Application\BmiApplication\BmiTester\bin\Debug\netcoreapp2.1\BmiTester.pdb
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 2 - BMI Application\BmiApplication\BmiTester\obj\Debug\netcoreapp2.1\BmiTester.csprojAssemblyReference.cache
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 2 - BMI Application\BmiApplication\BmiTester\obj\Debug\netcoreapp2.1\BmiTester.csproj.CoreCompileInputs.cache
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 2 - BMI Application\BmiApplication\BmiTester\obj\Debug\netcoreapp2.1\BmiTester.AssemblyInfoInputs.cache
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 2 - BMI Application\BmiApplication\BmiTester\obj\Debug\netcoreapp2.1\BmiTester.AssemblyInfo.cs
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 2 - BMI Application\BmiApplication\BmiTester\obj\Debug\netcoreapp2.1\BmiTester.dll
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 2 - BMI Application\BmiApplication\BmiTester\obj\Debug\netcoreapp2.1\BmiTester.pdb
