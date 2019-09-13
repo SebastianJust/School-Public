@@ -45,8 +45,8 @@ namespace BmiClient
 
                 if (r == null) throw new NullReferenceException("Result is null");
 
-                if (r.Text.Equals("Kunne ikke beregne"))
-                    return null;
+                if (r.Text.Equals("Kunne ikke beregne - mangler du et decimal?"))
+                    return r;
 
                 //Create in db
                 try
@@ -109,7 +109,7 @@ namespace BmiClient
             if (r > 30 && r < 40)
                 return "Du er svært overvægtig";
 
-            return r > 40 ? "Du er ekstremt overvægtig" : "Kunne ikke beregne";
+            return r > 40 ? "Du er ekstremt overvægtig" : "Kunne ikke beregne - mangler du et decimal?";
         }
     }
 }

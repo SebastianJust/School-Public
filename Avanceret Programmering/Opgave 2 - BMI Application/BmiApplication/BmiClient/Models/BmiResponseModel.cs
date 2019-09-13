@@ -9,8 +9,5 @@ namespace BmiClient.Models
  
         public string Text { get; set; }
         public double? Bmi { get; set; }
-
-
-
     }
 }

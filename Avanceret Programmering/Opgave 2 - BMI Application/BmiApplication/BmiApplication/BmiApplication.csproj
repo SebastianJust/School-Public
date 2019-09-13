@@ -148,7 +148,6 @@
     <None Include="wwwroot\img\dummy\partner-2.jpg" />
     <None Include="wwwroot\img\dummy\partner-3.jpg" />
     <None Include="wwwroot\img\dummy\partner-4.jpg" />
-    <None Include="wwwroot\img\logo.png" />
     <None Include="wwwroot\img\parallax\1.jpg" />
     <None Include="wwwroot\img\photo\1.jpg" />
     <None Include="wwwroot\img\photo\2.jpg" />

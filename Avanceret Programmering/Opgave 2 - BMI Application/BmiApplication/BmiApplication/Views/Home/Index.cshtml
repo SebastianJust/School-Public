@@ -6,6 +6,7 @@
 
 @{
     ViewData["Title"] = "Andersens Apotek";
+
 }
 
 
@@ -53,26 +54,29 @@
 
                                 <div class="panel panel-skin">
                                     <div class="panel-heading">
-                                        <h3 class="panel-title"><span class="fa fa-pencil-square-o"></span> Beregn dit BMI <small>(Det er gratis!)</small></h3>
+                                        <h3 class="panel-title"><span class="fa fa-calculator"></span> Beregn dit BMI <small>(Det er gratis!)</small></h3>
                                     </div>
                                     <div class="panel-body">
-                                        <form method="post" action="/Api/bmi" class="lead">
+                                        <form name="bmiForm" id="bmiForm" action="Post" class="lead">
                                             <div class="row">
                                                 <div class="col-xs-6 col-sm-6 col-md-6">
                                                     <div class="form-group">
-                                                        <label>Vægt</label>
-                                                        <input type="text" name="Weigth" id="weigth" class="form-control input-md">
+                                                        <label>Vægt (I kilo)</label>
+                                                        <input type="text" name="Weigth" id="weigth" class="form-control input-md" required="Du skal udfylde din vægt">
                                                     </div>
                                                 </div>
                                                 <div class="col-xs-6 col-sm-6 col-md-6">
                                                     <div class="form-group">
                                                         <label>Højde (I meter)</label>
-                                                        <input type="text" name="Heigth" id="heigth" class="form-control input-md">
+                                                        <input type="text" name="Heigth" id="heigth" class="form-control input-md" required="">
                                                     </div>
                                                 </div>
                                             </div>
 
-                                            <input type="submit" value="Vis resultat" class="btn btn-skin btn-block btn-lg">
+                                            <button class="btn btn-skin btn-block btn-lg" id="calculateBmi">Vis resultat</button>
+                                            <p></p>
+                                            <h6 id="resultCompleted" style="color:green"></h6>
+                                            <h6 id="resultErr" style="color:red"></h6>
 
                                             <p class="lead-footer">*Denne BMI gælder for voksne over 18 år – både mænd og kvinder - med en normal kropsbygning</p>
 
@@ -85,6 +89,40 @@
                     </div>
                 }
             </div>
+
         </div>
     </div>
 </section>
+
+<script>
+    $(document).ready(function () {
+        $("#calculateBmi").click(function (e) {
+            document.getElementById("calculateBmi").innerHTML = "Beregner...";
+            e.preventDefault();
+            var settings = {
+                url: '/Api/bmi',
+                type: 'post',
+                "content-Type": "application/json",
+                data: $('#bmiForm').serialize(),
+            }
+
+            $.ajax(settings).done(function (resp) {
+                document.getElementById("calculateBmi").innerHTML = "Vis resultat";
+                console.log(resp);
+                document.getElementById("resultCompleted").innerHTML = resp.text + " (Dit bmi er: " + resp.bmi + ")";
+                document.getElementById("resultErr").innerHTML = "";
+
+
+            }).fail(function (err) {
+                document.getElementById("calculateBmi").innerHTML = "Prøv igen";
+
+                console.log("Failed...");
+                console.log(err);
+                document.getElementById("resultErr").innerHTML = err.responseText;
+                document.getElementById("resultCompleted").innerHTML = "";
+
+            });
+        });
+
+    });
+</script>
