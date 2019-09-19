@@ -1,7 +1,39 @@
-﻿
-@{
-    ViewData["Title"] = "InchesToFeet";
+﻿@{
+    ViewData["Title"] = "Calculate from Inches to Feet";
 }
+@model FeetInchesRequestModel
+<section class="features-icons bg-light text-center">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-9 mx-auto">
+                <h2 class="mb-4">From Inches to Feet</h2>
+                <h5>Use of the inch can be traced back as far as the 7th century. The first explicit definition we could find of its length was after 1066 when it was defined as the length of three barleycorns.</h5>
+            </div>
+            <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+                <form name="inchesForm" id="inchesForm" action="Post" class="lead">
+                    <div class="form-row">
+                        <div class="col-12 col-md-9 mb-2 mb-md-0">
+                            <input type="number" class="form-control form-control-lg" asp-for="Inches" placeholder="Enter Inches ('')...">
+                            <span asp-validation-for="Inches" class="text-danger"></span>
+                            <span id="resultCompleted" class="text-success field-validation-error"></span>
+                            <span id="resultErr" class="text-danger field-validation-error"></span>
+                        </div>
 
-<h1>InchesToFeet</h1>
+                        <div class="col-12 col-md-3">
+                            <button id="calculateInches" class="btn btn-block btn-lg btn-primary">Calculate</button>    
+                         
+                        </div>
 
+
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

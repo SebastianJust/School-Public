@@ -8,5 +8,6 @@ namespace FeetToInchesApplication.Handlers
     interface ICalculateHandler
     {
         Task<double> CalculateFeetToInches(double feet);
+        Task<double> CalculateInchesToFeet(double inches);
     }
 }

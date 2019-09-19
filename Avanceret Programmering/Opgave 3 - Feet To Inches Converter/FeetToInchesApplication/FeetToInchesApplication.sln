@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29230.47
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FeetToInchesApplication", "FeetToInchesApplication\FeetToInchesApplication.csproj", "{2A34B52E-E23E-4CBE-961E-7D446C0D9271}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FeetToInchesApplication", "FeetToInchesApplication\FeetToInchesApplication.csproj", "{2A34B52E-E23E-4CBE-961E-7D446C0D9271}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestCalculations", "UnitTestCalculations\UnitTestCalculations.csproj", "{C4D36888-1107-474D-9487-E613EE7A9806}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{2A34B52E-E23E-4CBE-961E-7D446C0D9271}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A34B52E-E23E-4CBE-961E-7D446C0D9271}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A34B52E-E23E-4CBE-961E-7D446C0D9271}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4D36888-1107-474D-9487-E613EE7A9806}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4D36888-1107-474D-9487-E613EE7A9806}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4D36888-1107-474D-9487-E613EE7A9806}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4D36888-1107-474D-9487-E613EE7A9806}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

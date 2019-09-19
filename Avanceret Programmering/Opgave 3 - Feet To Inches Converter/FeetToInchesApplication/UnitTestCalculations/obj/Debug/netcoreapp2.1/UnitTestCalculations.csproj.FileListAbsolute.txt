@@ -1,0 +1,13 @@
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 3 - Feet To Inches Converter\FeetToInchesApplication\UnitTestCalculations\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 3 - Feet To Inches Converter\FeetToInchesApplication\UnitTestCalculations\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 3 - Feet To Inches Converter\FeetToInchesApplication\UnitTestCalculations\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 3 - Feet To Inches Converter\FeetToInchesApplication\UnitTestCalculations\bin\Debug\netcoreapp2.1\UnitTestCalculations.deps.json
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 3 - Feet To Inches Converter\FeetToInchesApplication\UnitTestCalculations\bin\Debug\netcoreapp2.1\UnitTestCalculations.runtimeconfig.json
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 3 - Feet To Inches Converter\FeetToInchesApplication\UnitTestCalculations\bin\Debug\netcoreapp2.1\UnitTestCalculations.runtimeconfig.dev.json
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 3 - Feet To Inches Converter\FeetToInchesApplication\UnitTestCalculations\bin\Debug\netcoreapp2.1\UnitTestCalculations.dll
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 3 - Feet To Inches Converter\FeetToInchesApplication\UnitTestCalculations\bin\Debug\netcoreapp2.1\UnitTestCalculations.pdb
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 3 - Feet To Inches Converter\FeetToInchesApplication\UnitTestCalculations\obj\Debug\netcoreapp2.1\UnitTestCalculations.csproj.CoreCompileInputs.cache
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 3 - Feet To Inches Converter\FeetToInchesApplication\UnitTestCalculations\obj\Debug\netcoreapp2.1\UnitTestCalculations.AssemblyInfoInputs.cache
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 3 - Feet To Inches Converter\FeetToInchesApplication\UnitTestCalculations\obj\Debug\netcoreapp2.1\UnitTestCalculations.AssemblyInfo.cs
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 3 - Feet To Inches Converter\FeetToInchesApplication\UnitTestCalculations\obj\Debug\netcoreapp2.1\UnitTestCalculations.dll
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 3 - Feet To Inches Converter\FeetToInchesApplication\UnitTestCalculations\obj\Debug\netcoreapp2.1\UnitTestCalculations.pdb

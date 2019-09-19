@@ -14,4 +14,9 @@ namespace FeetToInchesApplication.Models
         public string Inches { get; set; }
     }
 
+
+
+    public enum Types { Feet, Inches};
+
+
 }

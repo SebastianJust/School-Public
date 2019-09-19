@@ -32,13 +32,14 @@ namespace FeetToInchesApplication
             });
 
 
-            services.AddMvc(options =>
+            services.AddMvc()
+                .SetCompatibilityVersion(CompatibilityVersion.Version_2_2)
+                .ConfigureApiBehaviorOptions(options =>
                 {
-                    options.MaxModelValidationErrors = 50;
-                    options.ModelBindingMessageProvider.SetValueMustNotBeNullAccessor(
-                        (_) => "The field is required.");
-                })
-                .SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+                    options.SuppressModelStateInvalidFilter = true;
+
+                });
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
