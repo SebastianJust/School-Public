@@ -13,11 +13,11 @@ namespace FeetToInchesApplication.Handlers
         {
         }
 
-        public static Task<double> CalculateFeetToInches(double feet)
+        public static async Task<double> CalculateFeetToInches(double feet)
         {
             try
             {
-                return Task.FromResult(feet*12);
+                return await Task.FromResult(feet*12);
             }
             catch (Exception e)
             {
@@ -26,17 +26,17 @@ namespace FeetToInchesApplication.Handlers
             
         }
 
-        Task<double> ICalculateHandler.CalculateFeetToInches(double feet)
+        async Task<double> ICalculateHandler.CalculateFeetToInches(double feet)
         {
-            return CalculateFeetToInches(feet);
+            return await CalculateFeetToInches(feet);
         }
 
 
-        public static Task<double> CalculateInchesToFeet(double inches)
+        public static async Task<double> CalculateInchesToFeet(double inches)
         {
             try
             {
-                return Task.FromResult(inches / 12);
+                return await Task.FromResult(inches / 12);
             }
             catch (Exception e)
             {
@@ -45,9 +45,9 @@ namespace FeetToInchesApplication.Handlers
 
         }
 
-        Task<double> ICalculateHandler.CalculateInchesToFeet(double inches)
+        async Task<double> ICalculateHandler.CalculateInchesToFeet(double inches)
         {
-            return CalculateFeetToInches(inches);
+            return await CalculateFeetToInches(inches);
         }
 
     }
