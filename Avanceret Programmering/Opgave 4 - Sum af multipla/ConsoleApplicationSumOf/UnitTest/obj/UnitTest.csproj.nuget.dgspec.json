@@ -1,0 +1,132 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Git\\School\\School\\Public\\School-Public\\Avanceret Programmering\\Opgave 4 - Sum af multipla\\ConsoleApplicationSumOf\\UnitTest\\UnitTest.csproj": {}
+  },
+  "projects": {
+    "C:\\Git\\School\\School\\Public\\School-Public\\Avanceret Programmering\\Opgave 4 - Sum af multipla\\ConsoleApplicationSumOf\\ConsoleApplicationSumOf\\ConsoleApplicationSumOfMultiplier.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git\\School\\School\\Public\\School-Public\\Avanceret Programmering\\Opgave 4 - Sum af multipla\\ConsoleApplicationSumOf\\ConsoleApplicationSumOf\\ConsoleApplicationSumOfMultiplier.csproj",
+        "projectName": "ConsoleApplicationSumOfMultiplier",
+        "projectPath": "C:\\Git\\School\\School\\Public\\School-Public\\Avanceret Programmering\\Opgave 4 - Sum af multipla\\ConsoleApplicationSumOf\\ConsoleApplicationSumOf\\ConsoleApplicationSumOfMultiplier.csproj",
+        "packagesPath": "C:\\Users\\sjm\\.nuget\\packages\\",
+        "outputPath": "C:\\Git\\School\\School\\Public\\School-Public\\Avanceret Programmering\\Opgave 4 - Sum af multipla\\ConsoleApplicationSumOf\\ConsoleApplicationSumOf\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sjm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://10.210.207.22:8080/guestAuth/app/nuget/feed/_Root/default/v2": {},
+          "http://iec-prod-dpl01.iec-as.local/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Git\\School\\School\\Public\\School-Public\\Avanceret Programmering\\Opgave 4 - Sum af multipla\\ConsoleApplicationSumOf\\UnitTest\\UnitTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git\\School\\School\\Public\\School-Public\\Avanceret Programmering\\Opgave 4 - Sum af multipla\\ConsoleApplicationSumOf\\UnitTest\\UnitTest.csproj",
+        "projectName": "UnitTest",
+        "projectPath": "C:\\Git\\School\\School\\Public\\School-Public\\Avanceret Programmering\\Opgave 4 - Sum af multipla\\ConsoleApplicationSumOf\\UnitTest\\UnitTest.csproj",
+        "packagesPath": "C:\\Users\\sjm\\.nuget\\packages\\",
+        "outputPath": "C:\\Git\\School\\School\\Public\\School-Public\\Avanceret Programmering\\Opgave 4 - Sum af multipla\\ConsoleApplicationSumOf\\UnitTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sjm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://10.210.207.22:8080/guestAuth/app/nuget/feed/_Root/default/v2": {},
+          "http://iec-prod-dpl01.iec-as.local/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Git\\School\\School\\Public\\School-Public\\Avanceret Programmering\\Opgave 4 - Sum af multipla\\ConsoleApplicationSumOf\\ConsoleApplicationSumOf\\ConsoleApplicationSumOfMultiplier.csproj": {
+                "projectPath": "C:\\Git\\School\\School\\Public\\School-Public\\Avanceret Programmering\\Opgave 4 - Sum af multipla\\ConsoleApplicationSumOf\\ConsoleApplicationSumOf\\ConsoleApplicationSumOfMultiplier.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[15.9.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

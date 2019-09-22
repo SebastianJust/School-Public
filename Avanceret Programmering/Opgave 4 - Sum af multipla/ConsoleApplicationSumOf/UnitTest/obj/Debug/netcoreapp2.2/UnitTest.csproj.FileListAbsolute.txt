@@ -1,0 +1,17 @@
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 4 - Sum af multipla\ConsoleApplicationSumOf\UnitTest\bin\Debug\netcoreapp2.2\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 4 - Sum af multipla\ConsoleApplicationSumOf\UnitTest\bin\Debug\netcoreapp2.2\xunit.runner.reporters.netcoreapp10.dll
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 4 - Sum af multipla\ConsoleApplicationSumOf\UnitTest\bin\Debug\netcoreapp2.2\xunit.runner.utility.netcoreapp10.dll
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 4 - Sum af multipla\ConsoleApplicationSumOf\UnitTest\bin\Debug\netcoreapp2.2\UnitTest.deps.json
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 4 - Sum af multipla\ConsoleApplicationSumOf\UnitTest\bin\Debug\netcoreapp2.2\UnitTest.runtimeconfig.json
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 4 - Sum af multipla\ConsoleApplicationSumOf\UnitTest\bin\Debug\netcoreapp2.2\UnitTest.runtimeconfig.dev.json
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 4 - Sum af multipla\ConsoleApplicationSumOf\UnitTest\bin\Debug\netcoreapp2.2\UnitTest.dll
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 4 - Sum af multipla\ConsoleApplicationSumOf\UnitTest\bin\Debug\netcoreapp2.2\UnitTest.pdb
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 4 - Sum af multipla\ConsoleApplicationSumOf\UnitTest\obj\Debug\netcoreapp2.2\UnitTest.csprojAssemblyReference.cache
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 4 - Sum af multipla\ConsoleApplicationSumOf\UnitTest\obj\Debug\netcoreapp2.2\UnitTest.csproj.CoreCompileInputs.cache
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 4 - Sum af multipla\ConsoleApplicationSumOf\UnitTest\obj\Debug\netcoreapp2.2\UnitTest.AssemblyInfoInputs.cache
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 4 - Sum af multipla\ConsoleApplicationSumOf\UnitTest\obj\Debug\netcoreapp2.2\UnitTest.AssemblyInfo.cs
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 4 - Sum af multipla\ConsoleApplicationSumOf\UnitTest\obj\Debug\netcoreapp2.2\UnitTest.csproj.CopyComplete
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 4 - Sum af multipla\ConsoleApplicationSumOf\UnitTest\obj\Debug\netcoreapp2.2\UnitTest.dll
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 4 - Sum af multipla\ConsoleApplicationSumOf\UnitTest\obj\Debug\netcoreapp2.2\UnitTest.pdb
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 4 - Sum af multipla\ConsoleApplicationSumOf\UnitTest\bin\Debug\netcoreapp2.2\ConsoleApplicationSumOfMultiplier.dll
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 4 - Sum af multipla\ConsoleApplicationSumOf\UnitTest\bin\Debug\netcoreapp2.2\ConsoleApplicationSumOfMultiplier.pdb

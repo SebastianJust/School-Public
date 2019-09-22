@@ -1,0 +1,10 @@
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 4 - Sum af multipla\ConsoleApplicationSumOf\ConsoleApplicationSumOf\obj\Debug\netcoreapp2.2\ConsoleApplicationSumOf.csproj.CoreCompileInputs.cache
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 4 - Sum af multipla\ConsoleApplicationSumOf\ConsoleApplicationSumOf\obj\Debug\netcoreapp2.2\ConsoleApplicationSumOf.AssemblyInfoInputs.cache
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 4 - Sum af multipla\ConsoleApplicationSumOf\ConsoleApplicationSumOf\obj\Debug\netcoreapp2.2\ConsoleApplicationSumOf.AssemblyInfo.cs
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 4 - Sum af multipla\ConsoleApplicationSumOf\ConsoleApplicationSumOf\bin\Debug\netcoreapp2.2\ConsoleApplicationSumOfMultiplier.deps.json
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 4 - Sum af multipla\ConsoleApplicationSumOf\ConsoleApplicationSumOf\bin\Debug\netcoreapp2.2\ConsoleApplicationSumOfMultiplier.runtimeconfig.json
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 4 - Sum af multipla\ConsoleApplicationSumOf\ConsoleApplicationSumOf\bin\Debug\netcoreapp2.2\ConsoleApplicationSumOfMultiplier.runtimeconfig.dev.json
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 4 - Sum af multipla\ConsoleApplicationSumOf\ConsoleApplicationSumOf\bin\Debug\netcoreapp2.2\ConsoleApplicationSumOfMultiplier.dll
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 4 - Sum af multipla\ConsoleApplicationSumOf\ConsoleApplicationSumOf\bin\Debug\netcoreapp2.2\ConsoleApplicationSumOfMultiplier.pdb
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 4 - Sum af multipla\ConsoleApplicationSumOf\ConsoleApplicationSumOf\obj\Debug\netcoreapp2.2\ConsoleApplicationSumOfMultiplier.dll
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 4 - Sum af multipla\ConsoleApplicationSumOf\ConsoleApplicationSumOf\obj\Debug\netcoreapp2.2\ConsoleApplicationSumOfMultiplier.pdb
