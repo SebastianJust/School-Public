@@ -17,5 +17,6 @@
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgMicrosoft_Extensions_ApiDescription_Server Condition=" '$(PkgMicrosoft_Extensions_ApiDescription_Server)' == '' ">C:\Users\sjm\.nuget\packages\microsoft.extensions.apidescription.server\0.3.0-preview7.19365.7</PkgMicrosoft_Extensions_ApiDescription_Server>
+    <PkgNuGet_CommandLine Condition=" '$(PkgNuGet_CommandLine)' == '' ">C:\Users\sjm\.nuget\packages\nuget.commandline\5.2.0</PkgNuGet_CommandLine>
   </PropertyGroup>
 </Project>

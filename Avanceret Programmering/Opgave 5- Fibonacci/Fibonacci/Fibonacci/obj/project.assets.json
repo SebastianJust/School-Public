@@ -460,6 +460,9 @@
           "lib/netstandard2.0/Newtonsoft.Json.Bson.dll": {}
         }
       },
+      "NuGet.CommandLine/5.2.0": {
+        "type": "package"
+      },
       "runtime.native.System/4.0.0": {
         "type": "package",
         "dependencies": {
@@ -1545,6 +1548,20 @@
         "lib/netstandard2.0/Newtonsoft.Json.Bson.xml",
         "newtonsoft.json.bson.1.0.2.nupkg.sha512",
         "newtonsoft.json.bson.nuspec"
+      ]
+    },
+    "NuGet.CommandLine/5.2.0": {
+      "sha512": "/JwJWFJKPs/lRAREc5t7SxbQvlHrZlnZ5Ctw6VvwkYrw2fZJ4ewRUGU5cec5gj45u45H7tq/vWHzGGmX/kZJFg==",
+      "type": "package",
+      "path": "nuget.commandline/5.2.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "nuget.commandline.5.2.0.nupkg.sha512",
+        "nuget.commandline.nuspec",
+        "tools/NuGet.exe",
+        "tools/NuGet.pdb"
       ]
     },
     "runtime.native.System/4.0.0": {
@@ -3351,6 +3368,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.0": [
       "Fibonacci.Client >= 1.0.0",
+      "NuGet.CommandLine >= 5.2.0",
       "Swashbuckle.AspNetCore >= 5.0.0-rc3"
     ]
   },
@@ -3381,7 +3399,8 @@
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "http://10.210.207.22:8080/guestAuth/app/nuget/feed/_Root/default/v2": {},
         "http://iec-prod-dpl01.iec-as.local/v3/index.json": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://pkgs.dev.azure.com/justmikkelsen/School/_packaging/School/nuget/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.0": {
@@ -3401,6 +3420,12 @@
     "frameworks": {
       "netcoreapp3.0": {
         "dependencies": {
+          "NuGet.CommandLine": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[5.2.0, )"
+          },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
             "version": "[5.0.0-rc3, )"

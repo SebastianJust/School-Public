@@ -1,0 +1,6 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/RunConfigs/Config/=CFD0AC4F4A4B9C4AA875ACCA759C9030/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/RunConfigs/Config/=CFD0AC4F4A4B9C4AA875ACCA759C9030/Type/@EntryValue">project</s:String>
+	<s:String x:Key="/Default/RunConfigs/Config/=CFD0AC4F4A4B9C4AA875ACCA759C9030/Name/@EntryValue">Fibonacci.Client</s:String>
+	<s:String x:Key="/Default/RunConfigs/Config/=CFD0AC4F4A4B9C4AA875ACCA759C9030/ProjectGuid/@EntryValue">D99EF13E449B1441BF6F30EA1E3F3D9B</s:String>
+	<s:String x:Key="/Default/RunConfigs/Active/@EntryValue">CFD0AC4F4A4B9C4AA875ACCA759C9030</s:String></wpf:ResourceDictionary>

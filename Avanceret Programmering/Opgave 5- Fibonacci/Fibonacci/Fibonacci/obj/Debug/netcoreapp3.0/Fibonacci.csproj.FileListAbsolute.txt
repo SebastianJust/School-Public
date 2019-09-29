@@ -22,8 +22,6 @@ C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 5- Fibo
 C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 5- Fibonacci\Fibonacci\Fibonacci\obj\Debug\netcoreapp3.0\Fibonacci.csprojAssemblyReference.cache
 C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 5- Fibonacci\Fibonacci\Fibonacci\obj\Debug\netcoreapp3.0\staticwebassets\Fibonacci.StaticWebAssets.Manifest.cache
 C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 5- Fibonacci\Fibonacci\Fibonacci\obj\Debug\netcoreapp3.0\staticwebassets\Fibonacci.StaticWebAssets.xml
-C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 5- Fibonacci\Fibonacci\Fibonacci\obj\Debug\netcoreapp3.0\Fibonacci.MvcApplicationPartsAssemblyInfo.cs
-C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 5- Fibonacci\Fibonacci\Fibonacci\obj\Debug\netcoreapp3.0\Fibonacci.MvcApplicationPartsAssemblyInfo.cache
 C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 5- Fibonacci\Fibonacci\Fibonacci\obj\Debug\netcoreapp3.0\Fibonacci.AssemblyInfoInputs.cache
 C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 5- Fibonacci\Fibonacci\Fibonacci\obj\Debug\netcoreapp3.0\Fibonacci.AssemblyInfo.cs
 C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 5- Fibonacci\Fibonacci\Fibonacci\obj\Debug\netcoreapp3.0\Fibonacci.RazorTargetAssemblyInfo.cache
