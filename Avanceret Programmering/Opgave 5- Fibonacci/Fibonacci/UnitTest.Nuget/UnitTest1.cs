@@ -1,5 +1,6 @@
 using System.Threading.Tasks;
 using Fibonacci.Client;
+using Fibonacci.Client.Models;
 using NUnit.Framework;
 
 namespace UnitTest.Nuget
@@ -12,11 +13,11 @@ namespace UnitTest.Nuget
         }
 
         [Test]
-        public async Task Client_Calculate_OK()
+        public async Task NugetClient_Calculate_OK()
         {
-            var handler = new FibonacciHandler();
+            FibonacciHandler handler = new FibonacciHandler();
 
-            var result = await handler.Calculate(4000000);
+            ResponseModel result = await handler.Calculate(4000000);
             Assert.Pass();
         }
     }
