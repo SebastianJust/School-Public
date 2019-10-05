@@ -1,6 +1,6 @@
 using NUnit.Framework;
 
-namespace Pizza.UnitTests
+namespace Menu.UnitTests
 {
     public class Tests
     {

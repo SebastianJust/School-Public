@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Pizza.Models
+namespace Menu.Models
 {
     public class MenuModel
     {

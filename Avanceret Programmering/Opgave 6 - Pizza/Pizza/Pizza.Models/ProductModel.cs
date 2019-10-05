@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace Pizza.Models
+namespace Menu.Models
 {
    public class ProductModel
     {

@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29318.209
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pizza.Models", "Pizza.Models\Pizza.Models.csproj", "{5AAE116C-3963-4D97-B8BB-C0BF8B3F0492}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Menu.Models", "Pizza.Models\Menu.Models.csproj", "{5AAE116C-3963-4D97-B8BB-C0BF8B3F0492}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pizza.UnitTests", "Pizza.UnitTests\Pizza.UnitTests.csproj", "{0968BABC-8E60-4D80-8877-BB254669309B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Menu.UnitTests", "Pizza.UnitTests\Menu.UnitTests.csproj", "{0968BABC-8E60-4D80-8877-BB254669309B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MenuApplication", "MenuApplication\MenuApplication.csproj", "{1E0D335D-19F8-44F5-80AB-F46089156BD0}"
 EndProject

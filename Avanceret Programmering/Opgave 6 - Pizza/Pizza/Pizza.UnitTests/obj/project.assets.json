@@ -5222,9 +5222,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Git\\School\\School\\Public\\School-Public\\Avanceret Programmering\\Opgave 6 - Pizza\\Pizza\\Pizza.UnitTests\\Pizza.UnitTests.csproj",
-      "projectName": "Pizza.UnitTests",
-      "projectPath": "C:\\Git\\School\\School\\Public\\School-Public\\Avanceret Programmering\\Opgave 6 - Pizza\\Pizza\\Pizza.UnitTests\\Pizza.UnitTests.csproj",
+      "projectUniqueName": "C:\\Git\\School\\School\\Public\\School-Public\\Avanceret Programmering\\Opgave 6 - Pizza\\Pizza\\Pizza.UnitTests\\Menu.UnitTests.csproj",
+      "projectName": "Menu.UnitTests",
+      "projectPath": "C:\\Git\\School\\School\\Public\\School-Public\\Avanceret Programmering\\Opgave 6 - Pizza\\Pizza\\Pizza.UnitTests\\Menu.UnitTests.csproj",
       "packagesPath": "C:\\Users\\sjm\\.nuget\\packages\\",
       "outputPath": "C:\\Git\\School\\School\\Public\\School-Public\\Avanceret Programmering\\Opgave 6 - Pizza\\Pizza\\Pizza.UnitTests\\obj\\",
       "projectStyle": "PackageReference",

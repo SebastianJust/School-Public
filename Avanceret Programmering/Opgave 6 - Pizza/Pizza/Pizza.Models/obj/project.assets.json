@@ -185,9 +185,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Git\\School\\School\\Public\\School-Public\\Avanceret Programmering\\Opgave 6 - Pizza\\Pizza\\Pizza.Models\\Pizza.Models.csproj",
-      "projectName": "Pizza.Models",
-      "projectPath": "C:\\Git\\School\\School\\Public\\School-Public\\Avanceret Programmering\\Opgave 6 - Pizza\\Pizza\\Pizza.Models\\Pizza.Models.csproj",
+      "projectUniqueName": "C:\\Git\\School\\School\\Public\\School-Public\\Avanceret Programmering\\Opgave 6 - Pizza\\Pizza\\Pizza.Models\\Menu.Models.csproj",
+      "projectName": "Menu.Models",
+      "projectPath": "C:\\Git\\School\\School\\Public\\School-Public\\Avanceret Programmering\\Opgave 6 - Pizza\\Pizza\\Pizza.Models\\Menu.Models.csproj",
       "packagesPath": "C:\\Users\\sjm\\.nuget\\packages\\",
       "outputPath": "C:\\Git\\School\\School\\Public\\School-Public\\Avanceret Programmering\\Opgave 6 - Pizza\\Pizza\\Pizza.Models\\obj\\",
       "projectStyle": "PackageReference",

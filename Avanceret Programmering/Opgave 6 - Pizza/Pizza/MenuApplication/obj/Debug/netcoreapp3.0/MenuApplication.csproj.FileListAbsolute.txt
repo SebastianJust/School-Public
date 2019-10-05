@@ -9,7 +9,6 @@ C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 6 - Piz
 C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 6 - Pizza\Pizza\MenuApplication\bin\Debug\netcoreapp3.0\MenuApplication.pdb
 C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 6 - Pizza\Pizza\MenuApplication\bin\Debug\netcoreapp3.0\MenuApplication.Views.dll
 C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 6 - Pizza\Pizza\MenuApplication\bin\Debug\netcoreapp3.0\MenuApplication.Views.pdb
-C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 6 - Pizza\Pizza\MenuApplication\obj\Debug\netcoreapp3.0\MenuApplication.csprojAssemblyReference.cache
 C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 6 - Pizza\Pizza\MenuApplication\obj\Debug\netcoreapp3.0\staticwebassets\MenuApplication.StaticWebAssets.Manifest.cache
 C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 6 - Pizza\Pizza\MenuApplication\obj\Debug\netcoreapp3.0\staticwebassets\MenuApplication.StaticWebAssets.xml
 C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 6 - Pizza\Pizza\MenuApplication\obj\Debug\netcoreapp3.0\MenuApplication.MvcApplicationPartsAssemblyInfo.cache
