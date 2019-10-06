@@ -1,0 +1,11 @@
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 6 - Pizza\Pizza\Menu.Handler\bin\Debug\netstandard2.0\Menu.Handler.deps.json
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 6 - Pizza\Pizza\Menu.Handler\bin\Debug\netstandard2.0\Menu.Handler.dll
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 6 - Pizza\Pizza\Menu.Handler\obj\Debug\netstandard2.0\Menu.Handler.csprojAssemblyReference.cache
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 6 - Pizza\Pizza\Menu.Handler\obj\Debug\netstandard2.0\Menu.Handler.AssemblyInfoInputs.cache
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 6 - Pizza\Pizza\Menu.Handler\obj\Debug\netstandard2.0\Menu.Handler.AssemblyInfo.cs
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 6 - Pizza\Pizza\Menu.Handler\bin\Debug\netstandard2.0\Menu.Handler.pdb
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 6 - Pizza\Pizza\Menu.Handler\bin\Debug\netstandard2.0\Menu.Models.dll
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 6 - Pizza\Pizza\Menu.Handler\bin\Debug\netstandard2.0\Menu.Models.pdb
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 6 - Pizza\Pizza\Menu.Handler\obj\Debug\netstandard2.0\Menu.Handler.csproj.CopyComplete
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 6 - Pizza\Pizza\Menu.Handler\obj\Debug\netstandard2.0\Menu.Handler.dll
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 6 - Pizza\Pizza\Menu.Handler\obj\Debug\netstandard2.0\Menu.Handler.pdb

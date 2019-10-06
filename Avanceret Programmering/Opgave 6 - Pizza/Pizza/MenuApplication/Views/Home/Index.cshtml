@@ -1,5 +1,8 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿@using Menu.Models
+@model List<Menu.Models.MenuModel>;
+
+@{
+    ViewData["Title"] = "Menu";
 }
 <section class="home-slider owl-carousel img" style="background-image: url(images/bg_1.jpg);">
 
@@ -9,7 +12,7 @@
             <div class="row slider-text justify-content-center align-items-center">
 
                 <div class="col-md-7 col-sm-12 text-center ftco-animate">
-                    <h1 class="mb-3 mt-5 bread">Welcome</h1>
+                    <h1 class="mb-3 mt-5 bread">Velbekomme</h1>
                 </div>
 
             </div>
@@ -17,121 +20,119 @@
     </div>
 </section>
 
-    <div class="container">
-        <div class="row justify-content-center mb-5 pb-3 mt-5 pt-5">
-            <div class="col-md-7 heading-section text-center ftco-animate">
-                <h2 class="mb-4">Our Prices</h2>
-                <p class="flip"><span class="deg1"></span><span class="deg2"></span><span class="deg3"></span></p>
-                <p class="mt-5"></p>
+<div class="container">
+    <div class="row justify-content-center mb-5 pb-3 mt-5 pt-5">
+        <div class="col-md-7 heading-section text-center ftco-animate">
+            <h2 class="mb-4">Vores priser</h2>
+            <p class="flip"><span class="deg1"></span><span class="deg2"></span><span class="deg3"></span></p>
+            <p class="mt-5"></p>
+
+        </div>
+        <div class="container">
+            <div class="text-center">
+                <div id="btnContainer">
+
+                    <button class="btn active" onclick="filterSelection('all')">Vis alle</button>
+
+                    @{
+                        //We take the first 10 categories
+                        @foreach (MenuModel m in Model)
+                        {
+                            <button class="btn" onclick="filterSelection('@Html.DisplayFor(modelItem => m.CategoryId)')" style="display: inline-block;"> @Html.DisplayFor(modelItem => m.CategoryName)</button>
+                        }
+                    }
+                </div>
+                <br />
+
+            </div>
+            <div class="container">
+                <div class="text-center">
+
+                    @using (Html.BeginForm())
+                    {
+
+                        <p>
+                            @Html.TextBox("SearchString", null, new
+                            {
+                                placeholder = "Søg måltid... (Bemærk: Siden genindlæses med resultaterne)",
+                                @class = "form-control"
+                            })
+                        </p>
+                        <input type="submit" value="Søg efter måltid" class="btn" style="display:inline-block" />
+
+                    }
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<p></p>
+<br />
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="pricing-entry d-flex ftco-animate">
+                <div class="desc pl-3">
+
+                    @{
+                        //We take the first 10 categories
+                        @foreach (MenuModel m in Model.Take(10))
+                        {
+                            <div class="c-filter @Html.DisplayFor(modelItem => m.CategoryId)">
+                                <h4 class="mb-3">@Html.DisplayFor(modelItem => m.CategoryName)</h4>
+
+
+                                @foreach (ProductModel p in m.Product)
+                                {
+                                    <div class="d-flex text align-items-center">
+                                        <h3><span>@Html.DisplayFor(modelItem => p.Name)</span></h3>
+                                        <span class="price">DKK @Html.DisplayFor(modelItem => p.Price)</span>
+                                    </div>
+                                    <div class="d-block">
+                                        <p>@Html.DisplayFor(modelItem => p.Description)</p>
+                                    </div>
+                                    <br>
+
+                                }
+                                <br>
+                            </div>
+                        }
+                    }
+                </div>
             </div>
         </div>
 
-        <p></p>
-        <div class="row">
-            <div class="col-md-6">
-                <div class="mb-4 text align-items-center">
-                    Category
-                </div>
-                <p class="flip"><span class="deg1"></span><span class="deg2"></span><span class="deg3"></span></p>
+        <div class="col-md-6">
+            <div class="pricing-entry d-flex ftco-animate">
+                <div class="desc pl-3">
+                    @{
+                        //We take the first 10 categories
+                        @foreach (MenuModel m in Model.Skip(10))
+                        {
+                            <div class="c-filter @Html.DisplayFor(modelItem => m.CategoryId)">
+                                <h4 class="mb-3">@Html.DisplayFor(modelItem => m.CategoryName)</h4>
 
-                <div class="pricing-entry d-flex ftco-animate">
-                    <div class="desc pl-3">
-                        <div class="d-flex text align-items-center">
-                            <h3><span>Italian Pizza</span></h3>
-                            <span class="price">$20.00</span>
-                        </div>
-                        <div class="d-block">
-                            <p>A small river named Duden flows by their place and supplies</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="pricing-entry d-flex ftco-animate">
-                    <div class="img" style="background-image: url(images/pizza-2.jpg);"></div>
-                    <div class="desc pl-3">
-                        <div class="d-flex text align-items-center">
-                            <h3><span>Hawaiian Pizza</span></h3>
-                            <span class="price">$29.00</span>
-                        </div>
-                        <div class="d-block">
-                            <p>A small river named Duden flows by their place and supplies</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="pricing-entry d-flex ftco-animate">
-                    <div class="img" style="background-image: url(images/pizza-3.jpg);"></div>
-                    <div class="desc pl-3">
-                        <div class="d-flex text align-items-center">
-                            <h3><span>Greek Pizza</span></h3>
-                            <span class="price">$20.00</span>
-                        </div>
-                        <div class="d-block">
-                            <p>A small river named Duden flows by their place and supplies</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="pricing-entry d-flex ftco-animate">
-                    <div class="img" style="background-image: url(images/pizza-4.jpg);"></div>
-                    <div class="desc pl-3">
-                        <div class="d-flex text align-items-center">
-                            <h3><span>Bacon Crispy Thins</span></h3>
-                            <span class="price">$20.00</span>
-                        </div>
-                        <div class="d-block">
-                            <p>A small river named Duden flows by their place and supplies</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
-            <div class="col-md-6">
-                <div class="pricing-entry d-flex ftco-animate">
-                    <div class="img" style="background-image: url(images/pizza-5.jpg);"></div>
-                    <div class="desc pl-3">
-                        <div class="d-flex text align-items-center">
-                            <h3><span>Hawaiian Special</span></h3>
-                            <span class="price">$49.91</span>
-                        </div>
-                        <div class="d-block">
-                            <p>A small river named Duden flows by their place and supplies</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="pricing-entry d-flex ftco-animate">
-                    <div class="img" style="background-image: url(images/pizza-6.jpg);"></div>
-                    <div class="desc pl-3">
-                        <div class="d-flex text align-items-center">
-                            <h3><span>Ultimate Overload</span></h3>
-                            <span class="price">$20.00</span>
-                        </div>
-                        <div class="d-block">
-                            <p>A small river named Duden flows by their place and supplies</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="pricing-entry d-flex ftco-animate">
-                    <div class="img" style="background-image: url(images/pizza-7.jpg);"></div>
-                    <div class="desc pl-3">
-                        <div class="d-flex text align-items-center">
-                            <h3><span>Bacon Pizza</span></h3>
-                            <span class="price">$20.00</span>
-                        </div>
-                        <div class="d-block">
-                            <p>A small river named Duden flows by their place and supplies</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="pricing-entry d-flex ftco-animate">
-                    <div class="img" style="background-image: url(images/pizza-8.jpg);"></div>
-                    <div class="desc pl-3">
-                        <div class="d-flex text align-items-center">
-                            <h3><span>Ham &amp; Pineapple</span></h3>
-                            <span class="price">$20.00</span>
-                        </div>
-                        <div class="d-block">
-                            <p>A small river named Duden flows by their place and supplies</p>
-                        </div>
-                    </div>
+                                @foreach (ProductModel p in m.Product)
+                                {
+                                    <div class="d-flex text align-items-center">
+                                        <h3><span>@Html.DisplayFor(modelItem => p.Name)</span></h3>
+                                        <span class="price">DKK @Html.DisplayFor(modelItem => p.Price)</span>
+                                    </div>
+                                    <div class="d-block">
+                                        <p>@Html.DisplayFor(modelItem => p.Description)</p>
+                                    </div>
+                                    <br>
+
+                                }
+                                <br>
+                            </div>
+                        }
+                    }
                 </div>
             </div>
         </div>
     </div>
+</div>

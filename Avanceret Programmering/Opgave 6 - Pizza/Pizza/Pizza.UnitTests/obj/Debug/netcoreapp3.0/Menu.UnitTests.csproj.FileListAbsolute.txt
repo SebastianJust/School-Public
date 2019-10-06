@@ -90,3 +90,13 @@ C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 6 - Piz
 C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 6 - Pizza\Pizza\Pizza.UnitTests\obj\Debug\netcoreapp3.0\Menu.UnitTests.csproj.CopyComplete
 C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 6 - Pizza\Pizza\Pizza.UnitTests\obj\Debug\netcoreapp3.0\Menu.UnitTests.dll
 C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 6 - Pizza\Pizza\Pizza.UnitTests\obj\Debug\netcoreapp3.0\Menu.UnitTests.pdb
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 6 - Pizza\Pizza\Pizza.UnitTests\bin\Debug\netcoreapp3.0\System.Data.SqlClient.dll
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 6 - Pizza\Pizza\Pizza.UnitTests\bin\Debug\netcoreapp3.0\runtimes\win-arm64\native\sni.dll
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 6 - Pizza\Pizza\Pizza.UnitTests\bin\Debug\netcoreapp3.0\runtimes\win-x64\native\sni.dll
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 6 - Pizza\Pizza\Pizza.UnitTests\bin\Debug\netcoreapp3.0\runtimes\win-x86\native\sni.dll
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 6 - Pizza\Pizza\Pizza.UnitTests\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 6 - Pizza\Pizza\Pizza.UnitTests\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 6 - Pizza\Pizza\Pizza.UnitTests\bin\Debug\netcoreapp3.0\Menu.Models.dll
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 6 - Pizza\Pizza\Pizza.UnitTests\bin\Debug\netcoreapp3.0\Menu.Models.pdb
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 6 - Pizza\Pizza\Pizza.UnitTests\bin\Debug\netcoreapp3.0\Menu.Handler.dll
+C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 6 - Pizza\Pizza\Pizza.UnitTests\bin\Debug\netcoreapp3.0\Menu.Handler.pdb

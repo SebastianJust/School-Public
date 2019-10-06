@@ -3,11 +3,8 @@ using System.Collections.Generic;
 
 namespace Menu.Models
 {
-    public class MenuModel
+    public class MenuModel : CategoryModel
     {
-        public Guid CategoryId { get; set; }
-        public string CategoryName { get; set; }
-
         public List<ProductModel> Product { get; set; }
 
     }

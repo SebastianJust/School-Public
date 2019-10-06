@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Menu.UnitTests", "Pizza.Uni
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MenuApplication", "MenuApplication\MenuApplication.csproj", "{1E0D335D-19F8-44F5-80AB-F46089156BD0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Menu.Handler", "Menu.Handler\Menu.Handler.csproj", "{8EA1F7F9-D91E-47C6-8B4B-00FBB4699E69}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{1E0D335D-19F8-44F5-80AB-F46089156BD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E0D335D-19F8-44F5-80AB-F46089156BD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E0D335D-19F8-44F5-80AB-F46089156BD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EA1F7F9-D91E-47C6-8B4B-00FBB4699E69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EA1F7F9-D91E-47C6-8B4B-00FBB4699E69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EA1F7F9-D91E-47C6-8B4B-00FBB4699E69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EA1F7F9-D91E-47C6-8B4B-00FBB4699E69}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
