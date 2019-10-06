@@ -1,7 +1,6 @@
 C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 6 - Pizza\Pizza\Pizza.Models\bin\Debug\netstandard2.0\Menu.Models.deps.json
 C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 6 - Pizza\Pizza\Pizza.Models\bin\Debug\netstandard2.0\Menu.Models.dll
 C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 6 - Pizza\Pizza\Pizza.Models\bin\Debug\netstandard2.0\Menu.Models.pdb
-C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 6 - Pizza\Pizza\Pizza.Models\obj\Debug\netstandard2.0\Menu.Models.csprojAssemblyReference.cache
 C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 6 - Pizza\Pizza\Pizza.Models\obj\Debug\netstandard2.0\Menu.Models.AssemblyInfoInputs.cache
 C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 6 - Pizza\Pizza\Pizza.Models\obj\Debug\netstandard2.0\Menu.Models.AssemblyInfo.cs
 C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 6 - Pizza\Pizza\Pizza.Models\obj\Debug\netstandard2.0\Menu.Models.dll

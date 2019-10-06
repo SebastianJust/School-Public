@@ -120,6 +120,10 @@
       "frameworks": {
         "netcoreapp3.0": {
           "dependencies": {
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.9.5, )"
+            },
             "Microsoft.jQuery.Unobtrusive.Validation": {
               "target": "Package",
               "version": "[3.2.11, )"
