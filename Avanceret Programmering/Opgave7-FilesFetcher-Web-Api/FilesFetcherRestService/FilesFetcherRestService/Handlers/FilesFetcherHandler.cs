@@ -7,6 +7,7 @@ using FilesFetcherRestService.Controllers;
 using FilesFetcherRestService.DatabaseContext;
 using FilesModels;
 using Microsoft.AspNetCore.Http;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 
 namespace FilesFetcherRestService.Handlers
@@ -66,7 +67,28 @@ namespace FilesFetcherRestService.Handlers
                 throw;
             }
         }
+        /// <summary>
+        /// Methods to get list
+        /// </summary>
+        /// <param name="id">Indicates if specific file should be returned</param>
+        /// <returns></returns>
+        public async Task<List<FilesModel>> GetFileList(Guid? id)
 
+        {
+            try
+            {
+                List<FilesModel> files = await _dbContext.Files.ToListAsync();
+                if (id.HasValue)
+                    files = files.FindAll(m => m.Id.Equals(id.Value));
+                return files;
+            }
+            catch (Exception e)
+            {
+                _logger.LogError(e, e.Message, e);
+                Console.WriteLine(e);
+                throw;
+            }
+        }
 
     }
 }

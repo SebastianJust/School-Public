@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Git\\School\\School\\Public\\School-Public\\Avanceret-Programmering\\Opgave7-FilesFetcher-Web-Api\\FilesFetcherRestService\\FilesModels\\FilesModels.csproj",
+      "projectUniqueName": "C:\\Git\\School\\School\\Public\\School-Public\\Avanceret Programmering\\Opgave7-FilesFetcher-Web-Api\\FilesFetcherRestService\\FilesModels\\FilesModels.csproj",
       "projectName": "FilesModels",
-      "projectPath": "C:\\Git\\School\\School\\Public\\School-Public\\Avanceret-Programmering\\Opgave7-FilesFetcher-Web-Api\\FilesFetcherRestService\\FilesModels\\FilesModels.csproj",
+      "projectPath": "C:\\Git\\School\\School\\Public\\School-Public\\Avanceret Programmering\\Opgave7-FilesFetcher-Web-Api\\FilesFetcherRestService\\FilesModels\\FilesModels.csproj",
       "packagesPath": "C:\\Users\\sjm\\.nuget\\packages\\",
-      "outputPath": "C:\\Git\\School\\School\\Public\\School-Public\\Avanceret-Programmering\\Opgave7-FilesFetcher-Web-Api\\FilesFetcherRestService\\FilesModels\\obj\\",
+      "outputPath": "C:\\Git\\School\\School\\Public\\School-Public\\Avanceret Programmering\\Opgave7-FilesFetcher-Web-Api\\FilesFetcherRestService\\FilesModels\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

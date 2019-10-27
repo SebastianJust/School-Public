@@ -79,7 +79,7 @@ namespace FilesFetcherRestService.Controllers
             try
             {
 
-                return Ok(await GetFileList(id));
+                return Ok(await new FilesFetcherHandler(_logger, _dbContext).GetFileList(id));
 
             }
             catch (Exception e)
@@ -96,7 +96,7 @@ namespace FilesFetcherRestService.Controllers
         {
             try
             {
-                List<FilesModel> files = await GetFileList(id);
+                List<FilesModel> files = await new FilesFetcherHandler(_logger, _dbContext).GetFileList(id);
                 FilesModel file = files[0];
                 byte[] bytes = Convert.FromBase64String(file.Content);
 
@@ -122,24 +122,6 @@ namespace FilesFetcherRestService.Controllers
         }
 
 
-        private static async Task<List<FilesModel>> GetFileList(Guid? id)
-
-        {
-            try
-            {
-                List<FilesModel> files = await _dbContext.Files.ToListAsync();
-                if (id.HasValue)
-                    files = files.FindAll(m => m.Id.Equals(id.Value));
-                return files;
-            }
-            catch (Exception e)
-            {
-                _logger.LogError(e, e.Message, e);
-                Console.WriteLine(e);
-                throw;
-            }
-        }
-
         [HttpGet]
         [Route("api/status")]
         public async Task<ActionResult> Status()
@@ -155,5 +137,8 @@ namespace FilesFetcherRestService.Controllers
                 throw;
             }
         }
+
+    
+
     }
 }

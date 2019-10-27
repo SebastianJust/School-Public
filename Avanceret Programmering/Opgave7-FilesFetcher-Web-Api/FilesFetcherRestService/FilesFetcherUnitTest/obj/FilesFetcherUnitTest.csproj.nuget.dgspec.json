@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Git\\School\\School\\Public\\School-Public\\Avanceret-Programmering\\Opgave7-FilesFetcher-Web-Api\\FilesFetcherRestService\\FilesFetcherUnitTest\\FilesFetcherUnitTest.csproj": {}
+    "C:\\Git\\School\\School\\Public\\School-Public\\Avanceret Programmering\\Opgave7-FilesFetcher-Web-Api\\FilesFetcherRestService\\FilesFetcherUnitTest\\FilesFetcherUnitTest.csproj": {}
   },
   "projects": {
-    "C:\\Git\\School\\School\\Public\\School-Public\\Avanceret-Programmering\\Opgave7-FilesFetcher-Web-Api\\FilesFetcherRestService\\FilesFetcherRestService\\FilesFetcherRestService.csproj": {
+    "C:\\Git\\School\\School\\Public\\School-Public\\Avanceret Programmering\\Opgave7-FilesFetcher-Web-Api\\FilesFetcherRestService\\FilesFetcherRestService\\FilesFetcherRestService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Git\\School\\School\\Public\\School-Public\\Avanceret-Programmering\\Opgave7-FilesFetcher-Web-Api\\FilesFetcherRestService\\FilesFetcherRestService\\FilesFetcherRestService.csproj",
+        "projectUniqueName": "C:\\Git\\School\\School\\Public\\School-Public\\Avanceret Programmering\\Opgave7-FilesFetcher-Web-Api\\FilesFetcherRestService\\FilesFetcherRestService\\FilesFetcherRestService.csproj",
         "projectName": "FilesFetcherRestService",
-        "projectPath": "C:\\Git\\School\\School\\Public\\School-Public\\Avanceret-Programmering\\Opgave7-FilesFetcher-Web-Api\\FilesFetcherRestService\\FilesFetcherRestService\\FilesFetcherRestService.csproj",
+        "projectPath": "C:\\Git\\School\\School\\Public\\School-Public\\Avanceret Programmering\\Opgave7-FilesFetcher-Web-Api\\FilesFetcherRestService\\FilesFetcherRestService\\FilesFetcherRestService.csproj",
         "packagesPath": "C:\\Users\\sjm\\.nuget\\packages\\",
-        "outputPath": "C:\\Git\\School\\School\\Public\\School-Public\\Avanceret-Programmering\\Opgave7-FilesFetcher-Web-Api\\FilesFetcherRestService\\FilesFetcherRestService\\obj\\",
+        "outputPath": "C:\\Git\\School\\School\\Public\\School-Public\\Avanceret Programmering\\Opgave7-FilesFetcher-Web-Api\\FilesFetcherRestService\\FilesFetcherRestService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -33,8 +33,8 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "C:\\Git\\School\\School\\Public\\School-Public\\Avanceret-Programmering\\Opgave7-FilesFetcher-Web-Api\\FilesFetcherRestService\\FilesModels\\FilesModels.csproj": {
-                "projectPath": "C:\\Git\\School\\School\\Public\\School-Public\\Avanceret-Programmering\\Opgave7-FilesFetcher-Web-Api\\FilesFetcherRestService\\FilesModels\\FilesModels.csproj"
+              "C:\\Git\\School\\School\\Public\\School-Public\\Avanceret Programmering\\Opgave7-FilesFetcher-Web-Api\\FilesFetcherRestService\\FilesModels\\FilesModels.csproj": {
+                "projectPath": "C:\\Git\\School\\School\\Public\\School-Public\\Avanceret Programmering\\Opgave7-FilesFetcher-Web-Api\\FilesFetcherRestService\\FilesModels\\FilesModels.csproj"
               }
             }
           }
@@ -95,14 +95,14 @@
         }
       }
     },
-    "C:\\Git\\School\\School\\Public\\School-Public\\Avanceret-Programmering\\Opgave7-FilesFetcher-Web-Api\\FilesFetcherRestService\\FilesFetcherUnitTest\\FilesFetcherUnitTest.csproj": {
+    "C:\\Git\\School\\School\\Public\\School-Public\\Avanceret Programmering\\Opgave7-FilesFetcher-Web-Api\\FilesFetcherRestService\\FilesFetcherUnitTest\\FilesFetcherUnitTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Git\\School\\School\\Public\\School-Public\\Avanceret-Programmering\\Opgave7-FilesFetcher-Web-Api\\FilesFetcherRestService\\FilesFetcherUnitTest\\FilesFetcherUnitTest.csproj",
+        "projectUniqueName": "C:\\Git\\School\\School\\Public\\School-Public\\Avanceret Programmering\\Opgave7-FilesFetcher-Web-Api\\FilesFetcherRestService\\FilesFetcherUnitTest\\FilesFetcherUnitTest.csproj",
         "projectName": "FilesFetcherUnitTest",
-        "projectPath": "C:\\Git\\School\\School\\Public\\School-Public\\Avanceret-Programmering\\Opgave7-FilesFetcher-Web-Api\\FilesFetcherRestService\\FilesFetcherUnitTest\\FilesFetcherUnitTest.csproj",
+        "projectPath": "C:\\Git\\School\\School\\Public\\School-Public\\Avanceret Programmering\\Opgave7-FilesFetcher-Web-Api\\FilesFetcherRestService\\FilesFetcherUnitTest\\FilesFetcherUnitTest.csproj",
         "packagesPath": "C:\\Users\\sjm\\.nuget\\packages\\",
-        "outputPath": "C:\\Git\\School\\School\\Public\\School-Public\\Avanceret-Programmering\\Opgave7-FilesFetcher-Web-Api\\FilesFetcherRestService\\FilesFetcherUnitTest\\obj\\",
+        "outputPath": "C:\\Git\\School\\School\\Public\\School-Public\\Avanceret Programmering\\Opgave7-FilesFetcher-Web-Api\\FilesFetcherRestService\\FilesFetcherUnitTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -124,11 +124,11 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "C:\\Git\\School\\School\\Public\\School-Public\\Avanceret-Programmering\\Opgave7-FilesFetcher-Web-Api\\FilesFetcherRestService\\FilesFetcherRestService\\FilesFetcherRestService.csproj": {
-                "projectPath": "C:\\Git\\School\\School\\Public\\School-Public\\Avanceret-Programmering\\Opgave7-FilesFetcher-Web-Api\\FilesFetcherRestService\\FilesFetcherRestService\\FilesFetcherRestService.csproj"
+              "C:\\Git\\School\\School\\Public\\School-Public\\Avanceret Programmering\\Opgave7-FilesFetcher-Web-Api\\FilesFetcherRestService\\FilesFetcherRestService\\FilesFetcherRestService.csproj": {
+                "projectPath": "C:\\Git\\School\\School\\Public\\School-Public\\Avanceret Programmering\\Opgave7-FilesFetcher-Web-Api\\FilesFetcherRestService\\FilesFetcherRestService\\FilesFetcherRestService.csproj"
               },
-              "C:\\Git\\School\\School\\Public\\School-Public\\Avanceret-Programmering\\Opgave7-FilesFetcher-Web-Api\\FilesFetcherRestService\\FilesModels\\FilesModels.csproj": {
-                "projectPath": "C:\\Git\\School\\School\\Public\\School-Public\\Avanceret-Programmering\\Opgave7-FilesFetcher-Web-Api\\FilesFetcherRestService\\FilesModels\\FilesModels.csproj"
+              "C:\\Git\\School\\School\\Public\\School-Public\\Avanceret Programmering\\Opgave7-FilesFetcher-Web-Api\\FilesFetcherRestService\\FilesModels\\FilesModels.csproj": {
+                "projectPath": "C:\\Git\\School\\School\\Public\\School-Public\\Avanceret Programmering\\Opgave7-FilesFetcher-Web-Api\\FilesFetcherRestService\\FilesModels\\FilesModels.csproj"
               }
             }
           }
@@ -177,14 +177,14 @@
         }
       }
     },
-    "C:\\Git\\School\\School\\Public\\School-Public\\Avanceret-Programmering\\Opgave7-FilesFetcher-Web-Api\\FilesFetcherRestService\\FilesModels\\FilesModels.csproj": {
+    "C:\\Git\\School\\School\\Public\\School-Public\\Avanceret Programmering\\Opgave7-FilesFetcher-Web-Api\\FilesFetcherRestService\\FilesModels\\FilesModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Git\\School\\School\\Public\\School-Public\\Avanceret-Programmering\\Opgave7-FilesFetcher-Web-Api\\FilesFetcherRestService\\FilesModels\\FilesModels.csproj",
+        "projectUniqueName": "C:\\Git\\School\\School\\Public\\School-Public\\Avanceret Programmering\\Opgave7-FilesFetcher-Web-Api\\FilesFetcherRestService\\FilesModels\\FilesModels.csproj",
         "projectName": "FilesModels",
-        "projectPath": "C:\\Git\\School\\School\\Public\\School-Public\\Avanceret-Programmering\\Opgave7-FilesFetcher-Web-Api\\FilesFetcherRestService\\FilesModels\\FilesModels.csproj",
+        "projectPath": "C:\\Git\\School\\School\\Public\\School-Public\\Avanceret Programmering\\Opgave7-FilesFetcher-Web-Api\\FilesFetcherRestService\\FilesModels\\FilesModels.csproj",
         "packagesPath": "C:\\Users\\sjm\\.nuget\\packages\\",
-        "outputPath": "C:\\Git\\School\\School\\Public\\School-Public\\Avanceret-Programmering\\Opgave7-FilesFetcher-Web-Api\\FilesFetcherRestService\\FilesModels\\obj\\",
+        "outputPath": "C:\\Git\\School\\School\\Public\\School-Public\\Avanceret Programmering\\Opgave7-FilesFetcher-Web-Api\\FilesFetcherRestService\\FilesModels\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
