@@ -12982,7 +12982,8 @@
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "http://10.210.207.22:8080/guestAuth/app/nuget/feed/_Root/default/v2": {},
         "http://iec-prod-dpl01.iec-as.local/v3/index.json": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://pkgs.dev.azure.com/justmikkelsen/School/_packaging/School/nuget/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.2": {
