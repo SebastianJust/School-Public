@@ -1,0 +1,197 @@
+{
+	"info": {
+		"_postman_id": "7697700f-ea95-40a9-b91f-2374625f7008",
+		"name": "School - Public",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+    {
+      "name": "Status",
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "username",
+              "value": "test",
+              "type": "string"
+            },
+            {
+              "key": "password",
+              "value": "test",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://localhost:44327/api/status",
+          "protocol": "https",
+          "host": [
+            "localhost"
+          ],
+          "port": "44327",
+          "path": [
+            "api",
+            "status"
+          ]
+        }
+      }
+    },
+      {
+        "name": "List of files",
+        "request": {
+          "auth": {
+            "type": "basic",
+            "basic": [
+              {
+                "key": "username",
+                "value": "test",
+                "type": "string"
+              },
+              {
+                "key": "password",
+                "value": "test",
+                "type": "string"
+              }
+            ]
+          },
+          "method": "GET",
+          "header": [],
+          "url": {
+            "raw": "https://localhost:44327/api/files",
+            "protocol": "https",
+            "host": [
+              "localhost"
+            ],
+            "port": "44327",
+            "path": [
+              "api",
+              "files"
+            ]
+          }
+        },
+        "response": []
+      },
+      {
+        "name": "Specfic file",
+        "request": {
+          "auth": {
+            "type": "basic",
+            "basic": [
+              {
+                "key": "username",
+                "value": "test",
+                "type": "string"
+              },
+              {
+                "key": "password",
+                "value": "test",
+                "type": "string"
+              }
+            ]
+          },
+          "method": "GET",
+          "header": [],
+          "url": {
+            "raw": "https://localhost:44327/api/files?id=1391f423-6660-40e6-b276-1b652db340e9",
+            "protocol": "https",
+            "host": [
+              "localhost"
+            ],
+            "port": "44327",
+            "path": [
+              "api",
+              "files"
+            ],
+            "query": [
+              {
+                "key": "id",
+                "value": "1391f423-6660-40e6-b276-1b652db340e9"
+              }
+            ]
+          }
+        },
+        "response": []
+      },
+      {
+        "name": "Show file",
+        "request": {
+          "auth": {
+            "type": "basic",
+            "basic": [
+              {
+                "key": "username",
+                "value": "test",
+                "type": "string"
+              },
+              {
+                "key": "password",
+                "value": "test",
+                "type": "string"
+              }
+            ]
+          },
+          "method": "GET",
+          "header": [],
+          "url": {
+            "raw": "https://localhost:44327/api/showFile/1391f423-6660-40e6-b276-1b652db340e9",
+            "protocol": "https",
+            "host": [
+              "localhost"
+            ],
+            "port": "44327",
+            "path": [
+              "api",
+              "showFile",
+              "1391f423-6660-40e6-b276-1b652db340e9"
+            ]
+          }
+        },
+        "response": []
+      },
+      {
+        "name": "Show file / download",
+        "request": {
+          "auth": {
+            "type": "basic",
+            "basic": [
+              {
+                "key": "username",
+                "value": "test",
+                "type": "string"
+              },
+              {
+                "key": "password",
+                "value": "test",
+                "type": "string"
+              }
+            ]
+          },
+          "method": "GET",
+          "header": [],
+          "url": {
+            "raw": "https://localhost:44327/api/files?id=1391f423-6660-40e6-b276-1b652db340e9",
+            "protocol": "https",
+            "host": [
+              "localhost"
+            ],
+            "port": "44327",
+            "path": [
+              "api",
+              "files"
+            ],
+            "query": [
+              {
+                "key": "id",
+                "value": "1391f423-6660-40e6-b276-1b652db340e9"
+              }
+            ]
+          }
+        },
+        "response": []
+      }
+	],
+	"protocolProfileBehavior": {}
+}
