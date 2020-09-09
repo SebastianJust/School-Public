@@ -2,7 +2,6 @@ C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 2 - BMI
 C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 2 - BMI Application\BmiApplication\BmiClient\bin\Debug\netcoreapp2.2\BmiClient.dll
 C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 2 - BMI Application\BmiApplication\BmiClient\bin\Debug\netcoreapp2.2\BmiClient.pdb
 C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 2 - BMI Application\BmiApplication\BmiClient\obj\Debug\netcoreapp2.2\BmiClient.csprojAssemblyReference.cache
-C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 2 - BMI Application\BmiApplication\BmiClient\obj\Debug\netcoreapp2.2\BmiClient.csproj.CoreCompileInputs.cache
 C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 2 - BMI Application\BmiApplication\BmiClient\obj\Debug\netcoreapp2.2\BmiClient.AssemblyInfoInputs.cache
 C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 2 - BMI Application\BmiApplication\BmiClient\obj\Debug\netcoreapp2.2\BmiClient.AssemblyInfo.cs
 C:\Git\School\School\Public\School-Public\Avanceret Programmering\Opgave 2 - BMI Application\BmiApplication\BmiClient\obj\Debug\netcoreapp2.2\BmiClient.dll
