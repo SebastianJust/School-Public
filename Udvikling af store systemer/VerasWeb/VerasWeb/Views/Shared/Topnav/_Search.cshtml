@@ -1,0 +1,34 @@
+<!-- Search form -->
+<form class="navbar-search navbar-search-light form-inline mr-sm-3" id="navbar-search-main">
+    <div class="form-group mb-0">
+        <div class="input-group input-group-alternative input-group-merge">
+            <div class="input-group-prepend">
+                <span class="input-group-text">
+                    <i class="fas fa-search"></i>
+                </span>
+            </div>
+            
+            <input class="form-control" placeholder="Search" type="text" name="cprNumber" id="searchTextBox">
+
+
+        </div>
+    </div>
+</form>
+
+<script>
+    $(document).ready(function () {
+        function handleEnter(e) {
+            if (e.which === 13) {
+                // enter pressed
+                var searchKeyWord = $("#searchTextBox").val();
+                window.location.href = "/home/customer?cprNumber" + searchKeyWord;
+            }
+        }
+
+        $(document).keypress(handleEnter);
+        $("#searchTextBox").keypress(handleEnter);
+
+    }); 
+</script>
+
+
