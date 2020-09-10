@@ -21,13 +21,14 @@
             if (e.which === 13) {
                 // enter pressed
                 var searchKeyWord = $("#searchTextBox").val();
-                window.location.href = "/home/customer?cprNumber" + searchKeyWord;
+                window.location.href = "/customer/" + searchKeyWord;
+                return false;
+
             }
         }
 
         $(document).keypress(handleEnter);
         $("#searchTextBox").keypress(handleEnter);
-
     }); 
 </script>
 

@@ -416,3 +416,4 @@ C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\V
 C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_GoogleTagManagerBodyElement.cshtml.g.cs
 C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\obj\Debug\netcoreapp3.1\Razor\Views\Home\Customer.cshtml.g.cs
 C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\obj\Debug\netcoreapp3.1\Razor\Views\Home\Customers.cshtml.g.cs
+C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\obj\Debug\netcoreapp3.1\VerasWeb.csprojAssemblyReference.cache

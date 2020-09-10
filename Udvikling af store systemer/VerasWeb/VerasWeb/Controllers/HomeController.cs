@@ -50,7 +50,7 @@ namespace VerasWeb.Controllers
         }
 
         [ImportModelState]
-        [HttpGet("/customer")]
+        [HttpGet("/customer/{cprNumber}")]
         public async Task<IActionResult> Customer(string cprNumber)
         {
             //TODO: Search for customer by CPR and return data from COSMO DB
