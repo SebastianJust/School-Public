@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VerasWeb", "VerasWeb\VerasWeb.csproj", "{86DF2D69-18FC-48DF-835D-9F08DD88557F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VerasWeb.Handlers", "VerasWeb.Handlers\VerasWeb.Handlers.csproj", "{2BF42B4D-D19E-4B15-AEA9-AB3677AF193D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VerasWeb.Handlers", "VerasWeb.Handlers\VerasWeb.Handlers.csproj", "{2BF42B4D-D19E-4B15-AEA9-AB3677AF193D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VerasWeb.IntegrationsTest", "VerasWeb.IntegrationsTest\VerasWeb.IntegrationsTest.csproj", "{0E3D5671-C36E-4583-9F07-67BCF0D467C6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{2BF42B4D-D19E-4B15-AEA9-AB3677AF193D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2BF42B4D-D19E-4B15-AEA9-AB3677AF193D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2BF42B4D-D19E-4B15-AEA9-AB3677AF193D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E3D5671-C36E-4583-9F07-67BCF0D467C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E3D5671-C36E-4583-9F07-67BCF0D467C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E3D5671-C36E-4583-9F07-67BCF0D467C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E3D5671-C36E-4583-9F07-67BCF0D467C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

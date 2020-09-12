@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using CosmosDbService.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI;
@@ -12,6 +13,7 @@ using VerasWeb.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using VerasWeb.Handlers;
 using VerasWeb.Infrastructure.ApplicationUserClaims;
 using VerasWeb.Models.Identity;
 
@@ -71,6 +73,9 @@ namespace VerasWeb
                 options.AccessDeniedPath = "/Identity/Account/AccessDenied";
                 options.SlidingExpiration = true;
             });
+
+            services.AddScoped<ICustomerHandler, CustomerHandler>(t =>
+                new CustomerHandler(new CosmosDbService.CosmosDbService(new CosmosDbServiceConfiguration(Configuration.GetSection("AzureCosmoDb")["EndPointUri"], Configuration.GetSection("AzureCosmoDb")["PrimaryKey"], Configuration.GetSection("AzureCosmoDb")["ContainerId"], Configuration.GetSection("AzureCosmoDb")["DatabaseId"], Configuration.GetSection("AzureCosmoDb")["PartitionKeyPath"]))));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

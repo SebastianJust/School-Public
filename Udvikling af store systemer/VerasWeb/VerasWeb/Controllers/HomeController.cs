@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using VerasWeb.Handlers;
+using VerasWeb.Handlers.Models;
 using VerasWeb.Infrastructure.ErrorHandling;
 using VerasWeb.Models;
 using VerasWeb.Models.Identity;
@@ -19,15 +21,16 @@ namespace VerasWeb.Controllers
         private readonly ILogger<HomeController> _logger;
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly SignInManager<ApplicationUser> _signInManager;
-
+        private readonly ICustomerHandler _customerHandler;
         [TempData]
         public string StatusMessage { get; set; }
 
-        public HomeController(ILogger<HomeController> logger, UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager)
+        public HomeController(ILogger<HomeController> logger, UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager, ICustomerHandler customerHandler)
         {
             _logger = logger;
             _userManager = userManager;
             _signInManager = signInManager;
+            _customerHandler = customerHandler;
         }
 
         public IActionResult Index()
@@ -37,10 +40,31 @@ namespace VerasWeb.Controllers
 
         #region Customer
 
+
         public IActionResult CreateCustomer()
         {
             return View();
         }
+
+
+        [ExportModelState]
+        [HttpPost("/customer")]
+        public async Task<IActionResult> CreateNewCustomer([FromForm] Customer input)
+        {
+            if (!ModelState.IsValid)
+            {
+                return RedirectToAction(nameof(Customer));
+            }
+
+            //Now we generate the userId 
+            input.UserId = Guid.NewGuid().ToString();
+            input.Id = Guid.NewGuid().ToString();
+            await _customerHandler.CreateCustomerAsync(input);
+
+            return RedirectToAction("Customer", new {cprNumber = input.CprNumber});
+        }
+
+
         [ImportModelState]
         [HttpGet("/customers")]
         public async Task<IActionResult> Customers()
@@ -71,56 +95,6 @@ namespace VerasWeb.Controllers
             });
         }
 
-        [Authorize(Roles = "Admin")]
-        [ExportModelState]
-        [HttpPost("/customer")]
-        public async Task<IActionResult> UpdateProfile(
-            [FromForm]
-            ProfileViewModel input)
-        {
-            if (!ModelState.IsValid)
-            {
-                return RedirectToAction(nameof(Customer));
-            }
-
-            var user = await _userManager.GetUserAsync(User);
-            if (user == null)
-            {
-                return NotFound($"Unable to load user with ID '{_userManager.GetUserId(User)}'.");
-            }
-
-            var email = await _userManager.GetEmailAsync(user);
-            if (input.Email != email)
-            {
-                var setEmailResult = await _userManager.SetEmailAsync(user, input.Email);
-                if (!setEmailResult.Succeeded)
-                {
-                    foreach (var error in setEmailResult.Errors)
-                    {
-                        ModelState.AddModelError(string.Empty, error.Description);
-                    }
-                }
-            }
-
-            // Model state might not be valid anymore if we weren't able to change the e-mail address
-            // so we need to check for that before proceeding
-            if (ModelState.IsValid)
-            {
-                if (input.FullName != user.FullName)
-                {
-                    // If we receive an empty string, set a null full name instead
-                    user.FullName = string.IsNullOrWhiteSpace(input.FullName) ? null : input.FullName;
-                }
-
-                await _userManager.UpdateAsync(user);
-
-                await _signInManager.RefreshSignInAsync(user);
-
-                StatusMessage = "Your profile has been updated";
-            }
-
-            return RedirectToAction(nameof(Customer));
-        }
 
 
         #endregion
