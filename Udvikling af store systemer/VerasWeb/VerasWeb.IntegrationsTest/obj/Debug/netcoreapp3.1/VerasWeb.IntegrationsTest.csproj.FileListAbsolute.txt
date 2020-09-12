@@ -86,7 +86,6 @@ C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\V
 C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb.IntegrationsTest\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
 C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb.IntegrationsTest\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb.IntegrationsTest\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb.IntegrationsTest\obj\Debug\netcoreapp3.1\VerasWeb.IntegrationsTest.csprojAssemblyReference.cache
 C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb.IntegrationsTest\obj\Debug\netcoreapp3.1\VerasWeb.IntegrationsTest.AssemblyInfoInputs.cache
 C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb.IntegrationsTest\obj\Debug\netcoreapp3.1\VerasWeb.IntegrationsTest.AssemblyInfo.cs
 C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb.IntegrationsTest\obj\Debug\netcoreapp3.1\VerasWeb.IntegrationsTest.csproj.CoreCompileInputs.cache

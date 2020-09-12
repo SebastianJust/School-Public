@@ -400,7 +400,6 @@ C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\V
 C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LayoutProfile.cshtml.g.cs
 C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Navbar.cshtml.g.cs
 C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_NavbarUserInfo.cshtml.g.cs
-C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_OpenGraph.cshtml.g.cs
 C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_PageHeadElement.cshtml.g.cs
 C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Sidebar.cshtml.g.cs
 C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Sidenav.cshtml.g.cs
@@ -409,12 +408,6 @@ C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\V
 C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_GoogleTagManagerBodyElement.cshtml.g.cs
 C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\obj\Debug\netcoreapp3.1\Razor\Views\Home\Customer.cshtml.g.cs
 C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\obj\Debug\netcoreapp3.1\VerasWeb.csprojAssemblyReference.cache
-C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\bin\Debug\netcoreapp3.1\Microsoft.Azure.Cosmos.Client.dll
-C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\bin\Debug\netcoreapp3.1\Microsoft.Azure.Cosmos.Core.dll
-C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\bin\Debug\netcoreapp3.1\Microsoft.Azure.Cosmos.Direct.dll
-C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\bin\Debug\netcoreapp3.1\Microsoft.Azure.Cosmos.Serialization.HybridRow.dll
-C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Cosmos.CRTCompat.dll
-C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Azure.Cosmos.ServiceInterop.dll
 C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\bin\Debug\netcoreapp3.1\VerasWeb.Handlers.dll
 C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\bin\Debug\netcoreapp3.1\Microsoft.Azure.KeyVault.dll
 C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\bin\Debug\netcoreapp3.1\Microsoft.Azure.KeyVault.WebKey.dll
@@ -427,9 +420,6 @@ C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\V
 C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
 C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\bin\Debug\netcoreapp3.1\Microsoft.Rest.ClientRuntime.dll
 C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\bin\Debug\netcoreapp3.1\Microsoft.Rest.ClientRuntime.Azure.dll
-C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\bin\Debug\netcoreapp3.1\Microsoft.Azure.Cosmos.ServiceInterop.dll
-C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\bin\Debug\netcoreapp3.1\Cosmos.CRTCompat.dll
-C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\bin\Debug\netcoreapp3.1\Properties\ServiceDependencies\local\secrets1.arm.json
 C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\bin\Debug\netcoreapp3.1\CosmosDbService.dll
 C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\bin\Debug\netcoreapp3.1\VerasWeb.Handlers.pdb
 C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\bin\Debug\netcoreapp3.1\CosmosDbService.pdb
@@ -475,9 +465,6 @@ C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\V
 C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\obj\Debug\netcoreapp3.1\VerasWeb.csproj.CoreCompileInputs.cache
-C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\obj\Debug\netcoreapp3.1\VerasWeb.MvcApplicationPartsAssemblyInfo.cs
-C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\obj\Debug\netcoreapp3.1\VerasWeb.MvcApplicationPartsAssemblyInfo.cache
 C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\obj\Debug\netcoreapp3.1\Razor\Views\Home\CreateCustomer.cshtml.g.cs
 C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Login.cshtml.g.cs
 C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
@@ -486,3 +473,31 @@ C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\V
 C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Logout.cshtml.g.cs
 C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
 C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\RegisterConfirmation.cshtml.g.cs
+C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\bin\Debug\netcoreapp3.1\Properties\serviceDependencies.VerasWeb - Web Deploy.json
+C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\bin\Debug\netcoreapp3.1\Properties\ServiceDependencies\VerasWeb - Web Deploy\mssql1.arm.json
+C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\bin\Debug\netcoreapp3.1\Properties\ServiceDependencies\VerasWeb - Web Deploy\profile.arm.json
+C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\bin\Debug\netcoreapp3.1\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\bin\Debug\netcoreapp3.1\cs\Microsoft.QualityTools.Testing.Fakes.resources.dll
+C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\bin\Debug\netcoreapp3.1\de\Microsoft.QualityTools.Testing.Fakes.resources.dll
+C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\bin\Debug\netcoreapp3.1\es\Microsoft.QualityTools.Testing.Fakes.resources.dll
+C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\bin\Debug\netcoreapp3.1\fr\Microsoft.QualityTools.Testing.Fakes.resources.dll
+C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\bin\Debug\netcoreapp3.1\it\Microsoft.QualityTools.Testing.Fakes.resources.dll
+C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\bin\Debug\netcoreapp3.1\ja\Microsoft.QualityTools.Testing.Fakes.resources.dll
+C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\bin\Debug\netcoreapp3.1\ko\Microsoft.QualityTools.Testing.Fakes.resources.dll
+C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\bin\Debug\netcoreapp3.1\pl\Microsoft.QualityTools.Testing.Fakes.resources.dll
+C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.QualityTools.Testing.Fakes.resources.dll
+C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\bin\Debug\netcoreapp3.1\ru\Microsoft.QualityTools.Testing.Fakes.resources.dll
+C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\bin\Debug\netcoreapp3.1\tr\Microsoft.QualityTools.Testing.Fakes.resources.dll
+C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.QualityTools.Testing.Fakes.resources.dll
+C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.QualityTools.Testing.Fakes.resources.dll
+C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\obj\Debug\netcoreapp3.1\VerasWeb.csproj.CoreCompileInputs.cache
+C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\obj\Debug\netcoreapp3.1\VerasWeb.MvcApplicationPartsAssemblyInfo.cs
+C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\obj\Debug\netcoreapp3.1\VerasWeb.MvcApplicationPartsAssemblyInfo.cache
+C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\bin\Debug\netcoreapp3.1\Microsoft.Azure.Cosmos.ServiceInterop.dll
+C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\bin\Debug\netcoreapp3.1\Cosmos.CRTCompat.dll
+C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\bin\Debug\netcoreapp3.1\Microsoft.Azure.Cosmos.Client.dll
+C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\bin\Debug\netcoreapp3.1\Microsoft.Azure.Cosmos.Core.dll
+C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\bin\Debug\netcoreapp3.1\Microsoft.Azure.Cosmos.Direct.dll
+C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\bin\Debug\netcoreapp3.1\Microsoft.Azure.Cosmos.Serialization.HybridRow.dll
+C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Cosmos.CRTCompat.dll
+C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Azure.Cosmos.ServiceInterop.dll

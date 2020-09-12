@@ -100,9 +100,17 @@ namespace VerasWeb
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
+
+            app.Use(async (context, next) =>
+            {
+                //Cannot be iframe
+                context.Response.Headers.Add("X-Frame-Options", "DENY");
+                await next();
+            });
+
             app.UseStatusCodePagesWithReExecute("/status-code", "?code={0}");
 
-            app.UseHttpsRedirection();
+            app.UseHttpsRedirection(); // HTTP Strict Transport Security (HSTS)
             app.UseStaticFiles();
 
             app.UseRouting();

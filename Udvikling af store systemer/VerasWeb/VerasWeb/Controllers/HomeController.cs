@@ -40,6 +40,7 @@ namespace VerasWeb.Controllers
         /// <returns></returns>
         public async Task<IActionResult> Index()
         {
+            Trace.Write("Reaching customers...");
             var customers = await _customerHandler.GetCustomersAsync();
             return View(customers ?? new List<Customer>() );
         }

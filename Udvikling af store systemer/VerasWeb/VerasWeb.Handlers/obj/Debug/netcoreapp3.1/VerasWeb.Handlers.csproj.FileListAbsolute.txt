@@ -1,6 +1,5 @@
 C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb.Handlers\bin\Debug\netcoreapp3.1\VerasWeb.Handlers.deps.json
 C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb.Handlers\bin\Debug\netcoreapp3.1\VerasWeb.Handlers.dll
-C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb.Handlers\obj\Debug\netcoreapp3.1\VerasWeb.Handlers.csprojAssemblyReference.cache
 C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb.Handlers\obj\Debug\netcoreapp3.1\VerasWeb.Handlers.AssemblyInfoInputs.cache
 C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb.Handlers\obj\Debug\netcoreapp3.1\VerasWeb.Handlers.AssemblyInfo.cs
 C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb.Handlers\bin\Debug\netcoreapp3.1\Microsoft.Azure.Cosmos.ServiceInterop.dll
@@ -12,3 +11,4 @@ C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\V
 C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb.Handlers\obj\Debug\netcoreapp3.1\VerasWeb.Handlers.csproj.CopyComplete
 C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb.Handlers\obj\Debug\netcoreapp3.1\VerasWeb.Handlers.dll
 C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb.Handlers\obj\Debug\netcoreapp3.1\VerasWeb.Handlers.pdb
+C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb.Handlers\obj\Debug\netcoreapp3.1\VerasWeb.Handlers.csprojAssemblyReference.cache
