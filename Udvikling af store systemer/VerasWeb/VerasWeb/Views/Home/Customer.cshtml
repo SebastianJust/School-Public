@@ -39,7 +39,16 @@
                 </div>
                 <div class="text-center">
                     <h5 class="h3">
-                        @(Model?.FullName ?? Model?.FullName)<span class="font-weight-light">Navn ikke oplyst</span>
+                        <span class="font-weight-light">
+                        @if (Model?.FullName != null)
+                        {
+                            @Model.FullName;
+                        }
+                        else
+                        {
+                            <span class="font-weight-light">Navn ikke oplyst</span>
+                        }
+                        </span>
                     </h5>
                 </div>
             </div>
