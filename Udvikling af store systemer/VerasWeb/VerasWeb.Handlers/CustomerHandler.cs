@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using CosmosDbService;
 using VerasWeb.Handlers.Models;
@@ -20,6 +22,20 @@ namespace VerasWeb.Handlers
             {
                 await _cosmosDb.AddItemAsync(customer);
                 return true;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                throw;
+            }
+        }
+
+        public async Task<Customer> GetCustomerAsync(string cprNumber)
+        {
+            try
+            {
+                IEnumerable<Customer> items = await _cosmosDb.GetItemsAsync<Customer>();
+                return items?.FirstOrDefault(c => c.CprNumber.ToUpper() == cprNumber.ToUpper());
             }
             catch (Exception e)
             {

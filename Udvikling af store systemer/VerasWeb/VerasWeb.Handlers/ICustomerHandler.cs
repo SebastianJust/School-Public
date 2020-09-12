@@ -9,5 +9,6 @@ namespace VerasWeb.Handlers
     public interface ICustomerHandler
     {
         Task<bool> CreateCustomerAsync(Customer customer);
+        Task<Customer> GetCustomerAsync(string cprNumber);
     }
 }

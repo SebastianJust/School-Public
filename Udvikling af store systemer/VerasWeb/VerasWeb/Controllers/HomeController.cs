@@ -56,9 +56,10 @@ namespace VerasWeb.Controllers
                 return RedirectToAction(nameof(Customer));
             }
 
-            //Now we generate the userId 
+            //Now we generate the ids 
             input.UserId = Guid.NewGuid().ToString();
             input.Id = Guid.NewGuid().ToString();
+            
             await _customerHandler.CreateCustomerAsync(input);
 
             return RedirectToAction("Customer", new {cprNumber = input.CprNumber});
@@ -84,15 +85,8 @@ namespace VerasWeb.Controllers
         [HttpGet("/customer/{cprNumber}")]
         public async Task<IActionResult> Customer(string cprNumber)
         {
-            //TODO: Search for customer by CPR and return data from COSMO DB
 
-
-            return View(new ProfileViewModel
-            {
-                Username = "user.UserName",
-                Email = "user.Email",
-                FullName = "user.FullName"
-            });
+            return View(await _customerHandler.GetCustomerAsync(cprNumber));
         }
 
 

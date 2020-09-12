@@ -19,5 +19,8 @@ namespace VerasWeb.Handlers.Models
 
         [JsonProperty(PropertyName = "id")]
         public string Id { get; set; }
+
+        [JsonProperty(PropertyName = "result")]
+        public string Result { get; set; }
     }
 }
