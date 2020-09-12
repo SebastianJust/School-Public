@@ -36,11 +36,11 @@
 
                                 <th scope="row">
                                     <div class="media align-items-center">
-                                        <a href="/customer/@customer.CprNumber" class="avatar rounded-circle mr-3">
+                                        <span class="avatar rounded-circle mr-3">
                                             <img alt="Image placeholder" src="~/img/theme/avatar-svgrepo-com.svg">
-                                        </a>
+                                        </span>
                                         <div class="media-body">
-                                            <a href="/customer/@customer.CprNumber" class="name mb-0 text-sm">@customer.FullName</a>
+                                            <span class="name mb-0 text-sm">@customer.FullName</span>
                                         </div>
                                     </div>
                                 </th>
@@ -49,11 +49,11 @@
                                     </td>
                                     
                                     <td>
+                                        <span class="badge badge-dot mr-4">
 
                                 <!--Let's handle warnings-->
                                 @if (customer.Result != null)
                                 {
-                                        <span class="badge badge-dot mr-4">
                                             @if (customer.Result == Results.Pending)
                                             {
                                                 <i class="bg-warning"></i>
@@ -71,14 +71,14 @@
                                                 <i class="bg-danger"></i>
                                                 <span class="status">Påvist</span>
                                             }
-                                        </span>
                                 }
                                 else
                                 {
                                     <i class="bg-warning"></i>
                                     <span class="status">Afventer</span>
                                 }
-                                    
+                                </span>
+
                                 </td>
 
                                     <td class="createdBy">
@@ -96,7 +96,8 @@
                                             </a>
 
                                             <div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
-                                                <a class="dropdown-item" href="/home/deleteCustomer/@customer.Id">Delete <i class="fas fa-trash"></i></a>
+                                                <a class="dropdown-item" href="/customer/@customer.CprNumber">Ret kunde <i class="fas fa-user-edit"></i></a>
+                                                <a class="dropdown-item" href="/home/deletecustomer?id=@customer.Id">Slet kunde <i class="fas fa-trash"></i></a>
                                             </div>
                                         </div>
                                     </td>

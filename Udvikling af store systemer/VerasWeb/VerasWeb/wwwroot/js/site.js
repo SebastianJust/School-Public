@@ -30,6 +30,10 @@ $(document).ready(function () {
         $("#createCustomer").text("Opretter...");
     });
 
+    //Update customer
+    $("#updateCustomerBtn").click(function () {
+        $("#updateCustomer").text("Opdaterer...");
+    });
 
 });
 

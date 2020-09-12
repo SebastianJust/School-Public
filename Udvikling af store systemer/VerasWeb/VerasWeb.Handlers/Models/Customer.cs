@@ -30,7 +30,11 @@ namespace VerasWeb.Handlers.Models
         [JsonProperty(PropertyName = "createdOn")]
         public DateTime? CreatedOn { get; set; }
 
+        [JsonProperty(PropertyName = "modifiedById")]
+        public string ModifiedById { get; set; }
+
         [JsonProperty(PropertyName = "modifiedOn")]
         public DateTime? ModifiedOn { get; set; }
+
     }
 }

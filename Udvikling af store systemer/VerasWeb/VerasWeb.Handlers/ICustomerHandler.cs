@@ -12,5 +12,6 @@ namespace VerasWeb.Handlers
         Task<Customer> GetCustomerAsync(string cprNumber);
         Task<IEnumerable<Customer>> GetCustomersAsync();
         Task DeleteCustomerAsync(string id);
+        Task<bool> UpdateCustomerAsync(Customer customer);
     }
 }

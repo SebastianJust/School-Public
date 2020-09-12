@@ -33,6 +33,10 @@ namespace VerasWeb.Controllers
             _customerHandler = customerHandler;
         }
 
+        /// <summary>
+        /// The index (Home) which returns all customers
+        /// </summary>
+        /// <returns></returns>
         public async Task<IActionResult> Index()
         {
             var customers = await _customerHandler.GetCustomersAsync();
@@ -42,12 +46,21 @@ namespace VerasWeb.Controllers
         #region Customer
 
 
+        /// <summary>
+        /// The view for 'CreateNewCustomer'
+        /// </summary>
+        /// <returns></returns>
         public IActionResult CreateCustomer()
         {
             return View();
         }
 
 
+        /// <summary>
+        /// Creates an given customer
+        /// </summary>
+        /// <param name="input"></param>
+        /// <returns></returns>
         [ExportModelState]
         [HttpPost("/customer")]
         [ValidateAntiForgeryToken]
@@ -69,15 +82,25 @@ namespace VerasWeb.Controllers
             return RedirectToAction("Customer", new {cprNumber = input.CprNumber});
         }
 
+        /// <summary>
+        /// Gets a given customer and show information
+        /// </summary>
+        /// <param name="cprNumber"></param>
+        /// <returns></returns>
+
         [ImportModelState]
         [HttpGet("/customer/{cprNumber}")]
         public async Task<IActionResult> Customer(string cprNumber)
         {
-
             return View(await _customerHandler.GetCustomerAsync(cprNumber));
         }
 
-        [HttpDelete("/customer/{id}")]
+
+        /// <summary>
+        /// Deletes an given customer
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         public async Task<IActionResult> DeleteCustomer(string id)
         {
             await _customerHandler.DeleteCustomerAsync(id);
@@ -86,15 +109,35 @@ namespace VerasWeb.Controllers
 
         #endregion
 
-        public IActionResult Privacy()
+        /// <summary>
+        /// Updates an given customer
+        /// </summary>
+        /// <param name="input"></param>
+        /// <returns></returns>
+        public async Task<IActionResult> UpdateCustomer([FromForm] Customer input)
         {
-            return View();
-        }
+            try
+            {
+                if (!ModelState.IsValid)
+                {
+                    return RedirectToAction(nameof(Customer));
+                }
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+                //Now we generate the ids 
+                input.ModifiedById = User?.Identity?.Name;
+                input.ModifiedOn = DateTime.Now;
+
+                await _customerHandler.UpdateCustomerAsync(input);
+
+                return RedirectToAction("Customer", new { cprNumber = input.CprNumber });
+            }
+            catch (Exception e)
+            {
+                //Prevent failure
+                return RedirectToAction(nameof(Customer));
+
+            }
+
         }
     }
 }

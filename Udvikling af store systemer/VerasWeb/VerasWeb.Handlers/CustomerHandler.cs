@@ -71,5 +71,19 @@ namespace VerasWeb.Handlers
                 throw;
             }
         }
+
+        public async Task<bool> UpdateCustomerAsync(Customer customer)
+        {
+            try
+            {
+                await _cosmosDb.UpdateItemAsync(customer, new PartitionKey(customer.Id));
+                return true;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                throw;
+            }
+        }
     }
 }

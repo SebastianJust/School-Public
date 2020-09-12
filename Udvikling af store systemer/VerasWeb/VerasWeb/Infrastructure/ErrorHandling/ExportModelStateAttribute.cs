@@ -15,8 +15,7 @@ namespace VerasWeb.Infrastructure.ErrorHandling
                     || filterContext.Result is RedirectToRouteResult
                     || filterContext.Result is RedirectToActionResult)
                 {
-                    var controller = filterContext.Controller as Controller;
-                    if (controller != null && filterContext.ModelState != null)
+                    if (filterContext.Controller is Controller controller && filterContext.ModelState != null)
                     {
                         var modelState = ModelStateHelpers.SerializeModelState(filterContext.ModelState);
                         controller.TempData[Key] = modelState;
