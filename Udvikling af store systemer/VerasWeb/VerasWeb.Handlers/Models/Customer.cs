@@ -22,6 +22,15 @@ namespace VerasWeb.Handlers.Models
         public string Id { get; set; }
 
         [JsonProperty(PropertyName = "result")]
-        public string Result { get; set; }
+        public Results? Result { get; set; }
+
+        [JsonProperty(PropertyName = "createdById")]
+        public string CreatedById { get; set; }
+
+        [JsonProperty(PropertyName = "createdOn")]
+        public DateTime? CreatedOn { get; set; }
+
+        [JsonProperty(PropertyName = "modifiedOn")]
+        public DateTime? ModifiedOn { get; set; }
     }
 }

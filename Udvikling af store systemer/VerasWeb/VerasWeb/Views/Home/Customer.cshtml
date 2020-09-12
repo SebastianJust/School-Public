@@ -1,7 +1,10 @@
 ﻿@model VerasWeb.Handlers.Models.Customer
 
 @using Microsoft.AspNetCore.Identity
+@using VerasWeb.Handlers.Models
+@using VerasWeb.Models
 @using VerasWeb.Models.Identity
+using  VerasWeb.Handlers.Models.Results
 @inject SignInManager<ApplicationUser> SignInManager
 
 @{ Layout = "_LayoutProfile";
@@ -15,7 +18,7 @@
                 <div class="col-lg-3 order-lg-2">
                     <div class="card-profile-image">
                         <a href="#">
-                            <img src="~/img/theme/team-4.jpg" class="rounded-circle">
+                            <img src="~/img/theme/avatar-svgrepo-com.svg" class="rounded-circle">
                         </a>
                     </div>
                 </div>
@@ -30,7 +33,7 @@
                         <div class="card-profile-stats d-flex justify-content-center">
 
                             <div>
-                                <span class="heading">10</span>
+                                <span class="heading">@Model?.Result</span>
                                 <span class="description">Resultat</span>
                             </div>
 
@@ -40,14 +43,13 @@
                 <div class="text-center">
                     <h5 class="h3">
                         <span class="font-weight-light">
-                        @if (Model?.FullName != null)
-                        {
-                            @Model.FullName;
-                        }
-                        else
-                        {
-                            <span class="font-weight-light">Navn ikke oplyst</span>
-                        }
+                            @if (Model?.FullName != null)
+                            {
+                @Model.FullName;
+            }
+            else
+            {
+<span class="font-weight-light">Navn ikke oplyst</span>}
                         </span>
                     </h5>
                 </div>
@@ -114,8 +116,15 @@
                             <div class="col-lg-6">
                                 <div class="form-group">
                                     <label class="form-control-label" for="input-email">Resultat</label>
-                                    <select class="form-control" asp-for="Result" asp-items="@(new SelectList(new List<string>() {"Ikke påvist", "Afventer", "Påvist"}))">
-                                        <option>Vælg en</option>
+                                    <select class="form-control" asp-for="Result" asp-items="@(new SelectList(
+                                                                                                 new List<SelectListItem>
+                                                                                             {
+                                                                                                 new SelectListItem("Afventer", Results.Pending.ToString(), true),
+
+                                                                                                 new SelectListItem("Ikke påvist", Results.NotProven.ToString(), false),
+                                                                                                 new SelectListItem("Påvist", Results.Proven.ToString(), false)
+                                                                                             }, "Value", "Text"))">
+                                        <option>Resultat</option>
                                     </select>
                                 </div>
                             </div>

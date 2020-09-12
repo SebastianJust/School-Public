@@ -33,9 +33,10 @@ namespace VerasWeb.Controllers
             _customerHandler = customerHandler;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            return View();
+            var customers = await _customerHandler.GetCustomersAsync();
+            return View(customers ?? new List<Customer>() );
         }
 
         #region Customer
@@ -49,6 +50,7 @@ namespace VerasWeb.Controllers
 
         [ExportModelState]
         [HttpPost("/customer")]
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> CreateNewCustomer([FromForm] Customer input)
         {
             if (!ModelState.IsValid)
@@ -59,26 +61,12 @@ namespace VerasWeb.Controllers
             //Now we generate the ids 
             input.UserId = Guid.NewGuid().ToString();
             input.Id = Guid.NewGuid().ToString();
+            input.CreatedById = User?.Identity?.Name;
+            input.CreatedOn = DateTime.Now;
             
             await _customerHandler.CreateCustomerAsync(input);
 
             return RedirectToAction("Customer", new {cprNumber = input.CprNumber});
-        }
-
-
-        [ImportModelState]
-        [HttpGet("/customers")]
-        public async Task<IActionResult> Customers()
-        {
-            //TODO: Return all customers
-
-
-            return View(new ProfileViewModel
-            {
-                Username = "user.UserName",
-                Email = "user.Email",
-                FullName = "user.FullName"
-            });
         }
 
         [ImportModelState]
@@ -89,7 +77,12 @@ namespace VerasWeb.Controllers
             return View(await _customerHandler.GetCustomerAsync(cprNumber));
         }
 
-
+        [HttpDelete("/customer/{id}")]
+        public async Task<IActionResult> DeleteCustomer(string id)
+        {
+            await _customerHandler.DeleteCustomerAsync(id);
+            return RedirectToAction("Index");
+        }
 
         #endregion
 

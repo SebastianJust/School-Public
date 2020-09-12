@@ -18,6 +18,18 @@ $(document).ready(function () {
 
         }
     }
+
+
+
     $(document).keypress(handleEnter);
     $("#searchTextBox").keypress(handleEnter);
+
+
+    //Create customer
+    $("#createCustomerBtn").click(function () {
+        $("#createCustomer").text("Opretter...");
+    });
+
+
 });
+
