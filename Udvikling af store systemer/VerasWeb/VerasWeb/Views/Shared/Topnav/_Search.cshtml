@@ -8,28 +8,12 @@
                 </span>
             </div>
             
-            <input class="form-control" placeholder="Search" type="text" name="cprNumber" id="searchTextBox">
+            <input class="form-control" placeholder="Indtast CPR-Nummer (xxxxxxxxxx)" type="number"  name="cprNumber" id="searchTextBox" min="1" max="10">
 
 
         </div>
     </div>
 </form>
 
-<script>
-    $(document).ready(function () {
-        function handleEnter(e) {
-            if (e.which === 13) {
-                // enter pressed
-                var searchKeyWord = $("#searchTextBox").val();
-                window.location.href = "/customer/" + searchKeyWord;
-                return false;
-
-            }
-        }
-
-        $(document).keypress(handleEnter);
-        $("#searchTextBox").keypress(handleEnter);
-    }); 
-</script>
 
 

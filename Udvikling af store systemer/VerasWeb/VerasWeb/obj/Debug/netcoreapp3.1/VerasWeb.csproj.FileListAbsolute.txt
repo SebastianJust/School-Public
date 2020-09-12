@@ -393,7 +393,6 @@ C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\V
 C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Auth\_Navbar.cshtml.g.cs
 C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Topnav\_CurrentUser.cshtml.g.cs
 C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Topnav\_Dropdown.cshtml.g.cs
-C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Topnav\_Links.cshtml.g.cs
 C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Topnav\_Search.cshtml.g.cs
 C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Topnav\_Topnav.cshtml.g.cs
 C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Topnav\_TopnavProfile.cshtml.g.cs
@@ -415,5 +414,5 @@ C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\V
 C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ThemeStyles.cshtml.g.cs
 C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_GoogleTagManagerBodyElement.cshtml.g.cs
 C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\obj\Debug\netcoreapp3.1\Razor\Views\Home\Customer.cshtml.g.cs
-C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\obj\Debug\netcoreapp3.1\Razor\Views\Home\Customers.cshtml.g.cs
 C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\obj\Debug\netcoreapp3.1\VerasWeb.csprojAssemblyReference.cache
+C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\obj\Debug\netcoreapp3.1\Razor\Views\Home\CreateCustomer.cshtml.g.cs

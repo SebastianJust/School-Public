@@ -1,4 +1,23 @@
-﻿// Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
-// for details on configuring this project to bundle and minify static web assets.
+﻿// For search
+$(document).ready(function () {
+    function handleEnter(e) {
+        if (e.which === 13) {
+            // enter pressed
+            var searchKeyWord = $("#searchTextBox").val();
+            if (searchKeyWord.length !== 10) {
+                Swal.fire({
+                    title: 'Ikke gyldig CPR-nummer',
+                    text: 'CPR-nummeret skal være i tal: xxxxxxxxxx',
+                    icon: 'warning',
+                    confirmButtonText: 'Prøv igen'
+                });
+                return false;
+            }
+            window.location.href = "/customer/" + searchKeyWord;
+            return false;
 
-// Write your JavaScript code.
+        }
+    }
+    $(document).keypress(handleEnter);
+    $("#searchTextBox").keypress(handleEnter);
+});

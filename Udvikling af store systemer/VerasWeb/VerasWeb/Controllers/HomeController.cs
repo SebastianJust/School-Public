@@ -34,6 +34,13 @@ namespace VerasWeb.Controllers
         {
             return View();
         }
+
+        #region Customer
+
+        public IActionResult CreateCustomer()
+        {
+            return View();
+        }
         [ImportModelState]
         [HttpGet("/customers")]
         public async Task<IActionResult> Customers()
@@ -55,7 +62,7 @@ namespace VerasWeb.Controllers
         {
             //TODO: Search for customer by CPR and return data from COSMO DB
 
-       
+
             return View(new ProfileViewModel
             {
                 Username = "user.UserName",
@@ -114,6 +121,9 @@ namespace VerasWeb.Controllers
 
             return RedirectToAction(nameof(Customer));
         }
+
+
+        #endregion
 
         public IActionResult Privacy()
         {
