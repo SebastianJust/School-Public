@@ -53,7 +53,6 @@ namespace CosmosDbService
             {
                 return default;
             }
-
         }
 
         public async Task<IEnumerable<T>> GetItemsAsync<T>()

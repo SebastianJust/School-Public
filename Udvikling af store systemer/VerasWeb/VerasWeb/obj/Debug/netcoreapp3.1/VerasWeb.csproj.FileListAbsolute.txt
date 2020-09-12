@@ -501,3 +501,4 @@ C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\V
 C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\bin\Debug\netcoreapp3.1\Microsoft.Azure.Cosmos.Serialization.HybridRow.dll
 C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Cosmos.CRTCompat.dll
 C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Azure.Cosmos.ServiceInterop.dll
+C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\bin\Debug\netcoreapp3.1\Properties\ServiceDependencies\VerasWeb\profile.arm.json
