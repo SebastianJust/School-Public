@@ -13,13 +13,19 @@ namespace CosmosDbService
     public class CosmosDbService : ICosmosDbService
     {
         private readonly Container _container;
-        public CosmosDbService(CosmosDbServiceConfiguration configuration)
+
+        /// <summary>
+        /// CosmosDbService
+        /// </summary>
+        /// <param name="configuration"></param>
+        /// <param name="throughput"> (Optional) The throughput provisioned for a container in measurement of Request Units per second in the Azure Cosmos DB service.</param>
+        public CosmosDbService(CosmosDbServiceConfiguration configuration, int? throughput = null)
         {
             CosmosClient cosmosClient = new CosmosClient(configuration.EndpointUri, configuration.Key);
                 
             DatabaseResponse database = cosmosClient.CreateDatabaseIfNotExistsAsync(configuration.DatabaseId).Result;
             
-            _ = database.Database.CreateContainerIfNotExistsAsync(configuration.DatabaseId, configuration.PartitionKeyPath, 400).Result;
+            _ = database.Database.CreateContainerIfNotExistsAsync(configuration.DatabaseId, configuration.PartitionKeyPath, throughput).Result;
 
             _container = cosmosClient.GetContainer(configuration.DatabaseId, configuration.ContainerId);
         }

@@ -6,6 +6,7 @@ using Microsoft.Azure.Cosmos;
 
 namespace CosmosDbService
 {
+
     public interface ICosmosDbService
     {
         /// <summary>
@@ -15,10 +16,12 @@ namespace CosmosDbService
         /// <param name="item"></param>
         /// <returns></returns>
         Task<ItemResponse<T>> AddItemAsync<T>(T item);
+
         /// <summary>
         /// Returns a given item by its provided id.
         /// </summary>
         /// <typeparam name="T">Specify the model</typeparam>
+        /// <param name="id"></param>
         /// <param name="partitionKey"></param>
         /// <returns></returns>
         Task<T> GetItemAsync<T>(string id, PartitionKey partitionKey);
