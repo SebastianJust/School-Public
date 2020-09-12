@@ -502,3 +502,6 @@ C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\V
 C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\bin\Release\netcoreapp3.1\Microsoft.Azure.Cosmos.ServiceInterop.dll
 C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\bin\Release\netcoreapp3.1\Cosmos.CRTCompat.dll
 C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\bin\Release\netcoreapp3.1\Properties\ServiceDependencies\VerasWeb\profile.arm.json
+C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\bin\Release\netcoreapp3.1\Views\Home\CreateCustomer.cshtml
+C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\bin\Release\netcoreapp3.1\Views\Home\Customer.cshtml
+C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\bin\Release\netcoreapp3.1\Views\Home\Index.cshtml

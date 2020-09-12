@@ -18,9 +18,9 @@ namespace CosmosDbService.IntegrationsTest
         private const string DatabaseId = "MyDatabaseNameId";
         private const string ContainerId = "MyDatabaseNameId";
         // The Azure Cosmos DB endpoint for running this unitTest.
-        private const string EndPointUri = "https://verasweb.documents.azure.com:443/";
+        private const string EndPointUri = "xxxx";
         // The primary key for the Azure Cosmos account.
-        private const string PrimaryKey = "65PIg4ywMasSRYh3bUVWqxSfKdTzaJwFt3tgo6XHawsCYsQBJl5MMhplGtQwizwvsE6pvrp9Jvc3dBv94Rky3A==";
+        private const string PrimaryKey = "xxxxx";
         private ICosmosDbService _cosmosDb;
 
         public UnitTest(ITestOutputHelper testOutputHelper)

@@ -93,3 +93,4 @@ C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\V
 C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb.IntegrationsTest\obj\Release\netcoreapp3.1\VerasWeb.IntegrationsTest.dll
 C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb.IntegrationsTest\obj\Release\netcoreapp3.1\VerasWeb.IntegrationsTest.pdb
 C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb.IntegrationsTest\obj\Release\netcoreapp3.1\VerasWeb.IntegrationsTest.genruntimeconfig.cache
+C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb.IntegrationsTest\obj\Release\netcoreapp3.1\VerasWeb.IntegrationsTest.csprojAssemblyReference.cache
