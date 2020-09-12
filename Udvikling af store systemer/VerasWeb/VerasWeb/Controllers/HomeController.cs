@@ -15,7 +15,7 @@ using VerasWeb.Models.Identity;
 
 namespace VerasWeb.Controllers
 {
-    //TODO: Add Authorize
+    [Authorize]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
@@ -32,6 +32,7 @@ namespace VerasWeb.Controllers
             _signInManager = signInManager;
             _customerHandler = customerHandler;
         }
+
 
         /// <summary>
         /// The index (Home) which returns all customers
@@ -50,6 +51,8 @@ namespace VerasWeb.Controllers
         /// The view for 'CreateNewCustomer'
         /// </summary>
         /// <returns></returns>
+
+        [Authorize(Roles = "Administrator")]
         public IActionResult CreateCustomer()
         {
             return View();
@@ -61,6 +64,8 @@ namespace VerasWeb.Controllers
         /// </summary>
         /// <param name="input"></param>
         /// <returns></returns>
+
+        [Authorize(Roles = "Administrator")]
         [ExportModelState]
         [HttpPost("/customer")]
         [ValidateAntiForgeryToken]
@@ -78,7 +83,7 @@ namespace VerasWeb.Controllers
             input.CreatedOn = DateTime.Now;
             
             await _customerHandler.CreateCustomerAsync(input);
-
+            _logger.LogInformation($"customer is created: {input.UserId}");
             return RedirectToAction("Customer", new {cprNumber = input.CprNumber});
         }
 
@@ -87,7 +92,6 @@ namespace VerasWeb.Controllers
         /// </summary>
         /// <param name="cprNumber"></param>
         /// <returns></returns>
-
         [ImportModelState]
         [HttpGet("/customer/{cprNumber}")]
         public async Task<IActionResult> Customer(string cprNumber)
@@ -101,9 +105,12 @@ namespace VerasWeb.Controllers
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
+        [Authorize(Roles = "Administrator")]
         public async Task<IActionResult> DeleteCustomer(string id)
         {
             await _customerHandler.DeleteCustomerAsync(id);
+            _logger.LogInformation($"customer is deleted: {id}");
+
             return RedirectToAction("Index");
         }
 
@@ -114,6 +121,8 @@ namespace VerasWeb.Controllers
         /// </summary>
         /// <param name="input"></param>
         /// <returns></returns>
+
+        [Authorize(Roles = "Administrator")]
         public async Task<IActionResult> UpdateCustomer([FromForm] Customer input)
         {
             try
@@ -128,6 +137,7 @@ namespace VerasWeb.Controllers
                 input.ModifiedOn = DateTime.Now;
 
                 await _customerHandler.UpdateCustomerAsync(input);
+                _logger.LogInformation($"customer is updated: {input.UserId}");
 
                 return RedirectToAction("Customer", new { cprNumber = input.CprNumber });
             }
@@ -138,6 +148,20 @@ namespace VerasWeb.Controllers
 
             }
 
+        }
+        [HttpPost("/logout")]
+        public async Task<IActionResult> Logout(string returnUrl = null)
+        {
+            await _signInManager.SignOutAsync();
+            _logger.LogInformation("User logged out.");
+            if (returnUrl != null)
+            {
+                return LocalRedirect(returnUrl);
+            }
+            else
+            {
+                return RedirectToAction(nameof(Index));
+            }
         }
     }
 }

@@ -12,8 +12,12 @@
             <!-- Card header -->
             <div class="card-header border-0">
                 <!--Only show if logged in-->
-                <h3 class="mb-0">Borgere <a href="/home/createcustomer" class="btn btn-sm btn-primary" style="float: right">New</a></h3>
-            
+            @{
+                if (User.IsInRole("Administrator"))
+                {
+                    <h3 class="mb-0">Borgere <a href="/home/createcustomer" class="btn btn-sm btn-primary" style="float: right">New</a></h3>
+                }
+            }
                 </div>
             <!-- Light table -->
             <div class="table-responsive">
@@ -25,6 +29,8 @@
                             <th scope="col" class="sort" data-sort="status">Resultat</th>
                             <th scope="col" class="sort" data-sort="createdBy"> Oprettet af (Id)</th>
                             <th scope="col" class="sort"> Oprettet den</th>
+                            <th scope="col" class="sort" data-sort="modifiedBy"> Ændret af (Id)</th>
+                            <th scope="col" class="sort"> Ændret den</th>
                             <th scope="col"></th>
                         </tr>
                     </thead>
@@ -89,18 +95,32 @@
                                         @customer.CreatedOn?.ToString()
                                     </td>
                                     
-                                    <td class="text-right">
-                                        <div class="dropdown">
-                                            <a class="btn btn-sm btn-icon-only text-light" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                <i class="fas fa-ellipsis-v"></i>
-                                            </a>
-
-                                            <div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
-                                                <a class="dropdown-item" href="/customer/@customer.CprNumber">Ret kunde <i class="fas fa-user-edit"></i></a>
-                                                <a class="dropdown-item" href="/home/deletecustomer?id=@customer.Id">Slet kunde <i class="fas fa-trash"></i></a>
-                                            </div>
-                                        </div>
+                                    <td class="modifiedBy">
+                                        @customer.ModifiedById
                                     </td>
+
+                                    <td class="modifiedOn">
+                                        @customer.ModifiedOn?.ToString()
+                                    </td>
+                                    
+                                    @{
+                                        if (User.IsInRole("Administrator"))
+                                        {
+                                            <td class="text-right">
+                                                <div class="dropdown">
+                                                    <a class="btn btn-sm btn-icon-only text-light" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        <i class="fas fa-ellipsis-v"></i>
+                                                    </a>
+
+                                                    <div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
+                                                        <a class="dropdown-item" href="/customer/@customer.CprNumber">Ændre kunde <i class="fas fa-user-edit"></i></a>
+                                                        <a class="dropdown-item" href="/home/deletecustomer?id=@customer.Id">Slet kunde <i class="fas fa-trash"></i></a>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        }
+                                    }
+                           
 
                                 </tr>
 

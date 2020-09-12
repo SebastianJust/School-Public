@@ -21,9 +21,12 @@ $(document).ready(function () {
 
 
 
-    $(document).keypress(handleEnter);
     $("#searchTextBox").keypress(handleEnter);
 
+    //Create user
+    $("#createUser").click(function () {
+        $("#createUser").text("Opretter...");
+    });
 
     //Create customer
     $("#createCustomerBtn").click(function () {

@@ -479,3 +479,10 @@ C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\V
 C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\obj\Debug\netcoreapp3.1\VerasWeb.MvcApplicationPartsAssemblyInfo.cs
 C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\obj\Debug\netcoreapp3.1\VerasWeb.MvcApplicationPartsAssemblyInfo.cache
 C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\obj\Debug\netcoreapp3.1\Razor\Views\Home\CreateCustomer.cshtml.g.cs
+C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Login.cshtml.g.cs
+C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
+C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
+C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Logout.cshtml.g.cs
+C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
+C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\RegisterConfirmation.cshtml.g.cs

@@ -1,8 +1,11 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Claims;
+using System.Text.Json;
 using System.Threading.Tasks;
 using CosmosDbService.Models;
+using Microsoft.AspNetCore.Authentication.OAuth.Claims;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI;
@@ -74,8 +77,13 @@ namespace VerasWeb
                 options.SlidingExpiration = true;
             });
 
-            services.AddScoped<ICustomerHandler, CustomerHandler>(t =>
+            services.AddSingleton<ICustomerHandler, CustomerHandler>(t =>
                 new CustomerHandler(new CosmosDbService.CosmosDbService(new CosmosDbServiceConfiguration(Configuration.GetSection("AzureCosmoDb")["EndPointUri"], Configuration.GetSection("AzureCosmoDb")["PrimaryKey"], Configuration.GetSection("AzureCosmoDb")["ContainerId"], Configuration.GetSection("AzureCosmoDb")["DatabaseId"], Configuration.GetSection("AzureCosmoDb")["PartitionKeyPath"]))));
+
+            services.AddAuthorization(options =>
+            {
+                options.AddPolicy("Administrator", policy => policy.RequireRole("Administrator"));
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -110,5 +118,7 @@ namespace VerasWeb
                 endpoints.MapRazorPages();
             });
         }
+
+
     }
 }
