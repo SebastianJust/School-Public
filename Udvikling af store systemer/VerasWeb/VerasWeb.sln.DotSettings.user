@@ -1,4 +1,13 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=9ba4343f_002D413c_002D4e69_002Da62f_002D538a421ee0ef/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="CanGetCustomers_OK" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::0E3D5671-C36E-4583-9F07-67BCF0D467C6::.NETCoreApp,Version=v3.1::VerasWeb.IntegrationsTest.UnitTestCustomer.CanGetCustomers_OK&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::0E3D5671-C36E-4583-9F07-67BCF0D467C6::.NETCoreApp,Version=v3.1::VerasWeb.IntegrationsTest.UnitTestCustomer.CanCreateNewCustomer_OK&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::0E3D5671-C36E-4583-9F07-67BCF0D467C6::.NETCoreApp,Version=v3.1::VerasWeb.IntegrationsTest.UnitTestCustomer.CanGetCustomerByCprNumber_OK&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::0E3D5671-C36E-4583-9F07-67BCF0D467C6::.NETCoreApp,Version=v3.1::VerasWeb.IntegrationsTest.UnitTestCustomer.CanUpdateCustomer_OK&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::0E3D5671-C36E-4583-9F07-67BCF0D467C6::.NETCoreApp,Version=v3.1::VerasWeb.IntegrationsTest.UnitTestCustomer.CanDeleteCustomer_OK&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
 	<s:Boolean x:Key="/Default/Housekeeping/Bookmarks/NumberedBookmarks/=Bookmark9/@KeyIndexDefined">True</s:Boolean>
 	<s:String x:Key="/Default/Housekeeping/Bookmarks/NumberedBookmarks/=Bookmark9/Coords/@EntryValue">(Doc Ln 22 Col 57)</s:String>
 	<s:String x:Key="/Default/Housekeeping/Bookmarks/NumberedBookmarks/=Bookmark9/FileId/@EntryValue">86DF2D69-18FC-48DF-835D-9F08DD88557F/d:Views/d:Home/f:Index.cshtml</s:String>

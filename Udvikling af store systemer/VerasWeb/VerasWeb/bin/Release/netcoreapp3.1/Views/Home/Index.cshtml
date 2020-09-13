@@ -5,6 +5,11 @@
 @using VerasWeb.Models.Identity
 @inject SignInManager<ApplicationUser> SignInManager
 
+
+@{
+    bool isAdministrator = User.IsInRole("Administrator"); 
+}
+
 <div class="row">
     <div class="col">
 
@@ -13,7 +18,7 @@
             <div class="card-header border-0">
                 <!--Only show if logged in-->
             @{
-                if (User.IsInRole("Administrator"))
+                if (isAdministrator)
                 {
                     <h3 class="mb-0">Borgere <a href="/home/createcustomer" class="btn btn-sm btn-primary" style="float: right">New</a></h3>
                 }
@@ -46,7 +51,16 @@
                                             <img alt="Image placeholder" src="~/img/theme/avatar-svgrepo-com.svg">
                                         </span>
                                         <div class="media-body">
-                                            <span class="name mb-0 text-sm">@customer.FullName</span>
+                                            @if (isAdministrator)
+                                            {
+                                                <a href="/customer/@customer.CprNumber" class="name mb-0 text-sm">@customer.FullName</a>
+
+                                            }
+                                            else
+                                            {
+                                                <span class="name mb-0 text-sm">@customer.FullName</span>
+
+                                            }
                                         </div>
                                     </div>
                                 </th>
@@ -104,7 +118,7 @@
                                     </td>
                                     
                                     @{
-                                        if (User.IsInRole("Administrator"))
+                                        if (isAdministrator)
                                         {
                                             <td class="text-right">
                                                 <div class="dropdown">

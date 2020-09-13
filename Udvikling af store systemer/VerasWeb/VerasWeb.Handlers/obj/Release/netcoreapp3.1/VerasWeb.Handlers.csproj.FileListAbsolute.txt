@@ -11,3 +11,4 @@ C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\V
 C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb.Handlers\obj\Release\netcoreapp3.1\VerasWeb.Handlers.csproj.CopyComplete
 C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb.Handlers\obj\Release\netcoreapp3.1\VerasWeb.Handlers.dll
 C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb.Handlers\obj\Release\netcoreapp3.1\VerasWeb.Handlers.pdb
+C:\Git\School\School\Public\School-Public\Udvikling af store systemer\VerasWeb\VerasWeb.Handlers\obj\Release\netcoreapp3.1\VerasWeb.Handlers.csprojAssemblyReference.cache

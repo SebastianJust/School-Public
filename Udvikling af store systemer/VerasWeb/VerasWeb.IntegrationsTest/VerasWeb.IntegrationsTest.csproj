@@ -13,4 +13,14 @@
     <PackageReference Include="coverlet.collector" Version="1.2.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\VerasWeb.Handlers\VerasWeb.Handlers.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="CosmosDbService">
+      <HintPath>..\..\CosmoDbService\CosmosDbService\CosmosDbService\bin\Debug\netstandard2.0\CosmosDbService.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

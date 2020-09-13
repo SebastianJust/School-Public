@@ -19,6 +19,8 @@ using Microsoft.Extensions.Hosting;
 using VerasWeb.Handlers;
 using VerasWeb.Infrastructure.ApplicationUserClaims;
 using VerasWeb.Models.Identity;
+using Winton.AspNetCore.Seo;
+using Winton.AspNetCore.Seo.Sitemaps;
 
 namespace VerasWeb
 {
@@ -84,6 +86,19 @@ namespace VerasWeb
             {
                 options.AddPolicy("Administrator", policy => policy.RequireRole("Administrator"));
             });
+
+            //For SEO
+            services.AddSeoWithDefaultRobots();
+            services.AddSeoWithDefaultRobots(
+                options => options.Urls = new List<SitemapUrlOptions>
+                {
+                    new SitemapUrlOptions
+                    {
+                        Priority = 0.9M,
+                        RelativeUrl = "/home/blog"
+                    }
+                });
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

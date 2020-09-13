@@ -28,7 +28,7 @@ namespace CosmosDbService.IntegrationsTest
             _testOutputHelper = testOutputHelper;
         }
 
-        public void CosmosDbService()
+        private void CosmosDbService()
         {
             _cosmosDb = new CosmosDbService(new CosmosDbServiceConfiguration(EndPointUri, PrimaryKey, ContainerId, DatabaseId, "/id"));
         }

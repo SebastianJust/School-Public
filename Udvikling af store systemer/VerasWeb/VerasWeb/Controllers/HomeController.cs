@@ -115,8 +115,6 @@ namespace VerasWeb.Controllers
             return RedirectToAction("Index");
         }
 
-        #endregion
-
         /// <summary>
         /// Updates an given customer
         /// </summary>
@@ -150,6 +148,10 @@ namespace VerasWeb.Controllers
             }
 
         }
+
+        #endregion
+
+
         [HttpPost("/logout")]
         public async Task<IActionResult> Logout(string returnUrl = null)
         {
@@ -164,5 +166,15 @@ namespace VerasWeb.Controllers
                 return RedirectToAction(nameof(Index));
             }
         }
+
+        /// <summary>
+        /// The index (Home) which returns all customers
+        /// </summary>
+        /// <returns></returns>
+        public IActionResult Blog()
+        {
+            return View();
+        }
+
     }
 }
