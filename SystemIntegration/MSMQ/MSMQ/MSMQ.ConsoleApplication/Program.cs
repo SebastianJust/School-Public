@@ -15,7 +15,7 @@ namespace MSMQ.ConsoleApplication
         {
 
             string privateQueue = @$"{ConfigurationManager.AppSettings["MSMQ_Private_Queue"]}";
-            var messageQueue = new MessageQueue(privateQueue);
+            MessageQueue messageQueue = new MessageQueue(privateQueue);
             Console.WriteLine("******Waiting for messages******");
             while (true)
             {
