@@ -1,0 +1,14 @@
+C:\Git\School\School\SystemIntegration\MSMQ\MSMQ\MSMQ.ConsoleApplication\bin\Debug\MSMQ.ConsoleApplication.exe.config
+C:\Git\School\School\SystemIntegration\MSMQ\MSMQ\MSMQ.ConsoleApplication\bin\Debug\MSMQ.ConsoleApplication.exe
+C:\Git\School\School\SystemIntegration\MSMQ\MSMQ\MSMQ.ConsoleApplication\bin\Debug\MSMQ.ConsoleApplication.pdb
+C:\Git\School\School\SystemIntegration\MSMQ\MSMQ\MSMQ.ConsoleApplication\obj\Debug\MSMQ.ConsoleApplication.csprojAssemblyReference.cache
+C:\Git\School\School\SystemIntegration\MSMQ\MSMQ\MSMQ.ConsoleApplication\obj\Debug\MSMQ.ConsoleApplication.csproj.CoreCompileInputs.cache
+C:\Git\School\School\SystemIntegration\MSMQ\MSMQ\MSMQ.ConsoleApplication\obj\Debug\MSMQ.ConsoleApplication.exe
+C:\Git\School\School\SystemIntegration\MSMQ\MSMQ\MSMQ.ConsoleApplication\obj\Debug\MSMQ.ConsoleApplication.pdb
+C:\Git\School\School\Public\School-Public\SystemIntegration\MSMQ\MSMQ\MSMQ.ConsoleApplication\bin\Debug\MSMQ.ConsoleApplication.exe.config
+C:\Git\School\School\Public\School-Public\SystemIntegration\MSMQ\MSMQ\MSMQ.ConsoleApplication\bin\Debug\MSMQ.ConsoleApplication.exe
+C:\Git\School\School\Public\School-Public\SystemIntegration\MSMQ\MSMQ\MSMQ.ConsoleApplication\bin\Debug\MSMQ.ConsoleApplication.pdb
+C:\Git\School\School\Public\School-Public\SystemIntegration\MSMQ\MSMQ\MSMQ.ConsoleApplication\obj\Debug\MSMQ.ConsoleApplication.csprojAssemblyReference.cache
+C:\Git\School\School\Public\School-Public\SystemIntegration\MSMQ\MSMQ\MSMQ.ConsoleApplication\obj\Debug\MSMQ.ConsoleApplication.csproj.CoreCompileInputs.cache
+C:\Git\School\School\Public\School-Public\SystemIntegration\MSMQ\MSMQ\MSMQ.ConsoleApplication\obj\Debug\MSMQ.ConsoleApplication.exe
+C:\Git\School\School\Public\School-Public\SystemIntegration\MSMQ\MSMQ\MSMQ.ConsoleApplication\obj\Debug\MSMQ.ConsoleApplication.pdb
